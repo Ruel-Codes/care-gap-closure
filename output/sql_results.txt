@@ -1,0 +1,14 @@
+action	issues
+blank_to_null	5706
+flagged_not_imputed	543
+aligned_procedure_date	289
+flagged_retained	9
+cleared_ssn	2
+cost_band	encounters	total_cost
+Low	16020	2492065.78
+Mid	28784	77407860.30
+High	8542	199557801.69
+gap_events	gap_patients
+3654	1014
+repeat_patient_years	repeat_patients
+8781	1155

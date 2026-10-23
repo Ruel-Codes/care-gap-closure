@@ -1,0 +1,16 @@
+Built a SQL analytics layer over 1,171 synthetic patients and 53,346 encounters, using multi-table joins to link patients, encounters, conditions, and procedures for provider/payer-style reporting.
+
+Validated and cleaned the data (duplicate records, missing values, date checks) with SQL and Pandas, resolving 5,997 data-quality issues before analysis.
+
+Segmented encounters into High/Mid/Low cost bands with CASE and ranked the top-cost patients and top conditions per encounter class using window functions (DENSE_RANK).
+
+Identified 1,014 care-gap patients (a diagnosed condition on an encounter with no recorded procedure or medication) with an anti-join, and flagged 1,155 patients with repeated visits in the same year using GROUP BY/HAVING.
+
+Tracked monthly encounter volume and month-over-month change with LAG, and built a 6-KPI dashboard of panel size, total cost, high-cost share, care gaps, repeat visits, and monthly volume.
+
+Notes for interviews
+- The 5,997 resolved issues are 2 shared SSNs cleared, 289 procedure dates aligned onto their encounter, and 5,706 blank condition or medication end dates stored as NULL. Another 543 missing ZIPs and 9 encounters dated the day after death were flagged and kept.
+- Cost bands use base encounter cost + procedure cost + medication cost, because TOTAL_CLAIM_COST is only $129.16 or $77.49. Low is under $500 (16,020 encounters), Mid is $500–$9,999 (28,784), High is $10,000 or more (8,542). High-cost encounters are 16% of visits and 71% of the $279.5M total.
+- Care gaps are encounter-level: 3,654 condition rows and 1,014 distinct patients. A patient can still have treatment on a different encounter.
+- Repeat visits use HAVING COUNT(*) > 1 within a calendar year: 1,155 of 1,171 patients, across 8,781 patient-years.
+- Database: MySQL schema healthcare_analytics on localhost:3306, connection "Local instance 3306" in MySQL Workbench. Analysis SQL is sql/healthcare_analytics.sql.

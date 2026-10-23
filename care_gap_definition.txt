@@ -1,0 +1,14 @@
+Care gap definition
+As of 2020-04-28. Massachusetts Synthea extract.
+
+A care gap is an eligible diagnosis with no medication and no procedure for that patient in the 90 days after the diagnosis date.
+
+Eligible means two things. The diagnosis is not a "History of ..." finding, because that is not an active condition. The diagnosis date is on or before 2020-01-28, because the extract ends 2020-04-28 and a later diagnosis has not had 90 days to be treated.
+
+Any medication or procedure in that window closes the gap, even if it was for something else. A clinician would narrow this before a real outreach program. The rule is deliberately simple so the measurement can be explained in one sentence.
+
+Result of the rule: 2,469 gap conditions out of 8,089 eligible conditions (30.5%). Those gaps belong to 908 patients, 79.0% of the 1,149 patients who have an eligible condition.
+
+Priority is separate from the count, and it is who to call now. Deceased patients are left off the worklist. Overdose and first-trimester miscarriage raise the score only when the diagnosis was on or after 2018-04-28. Chronic gaps (hypertension, prediabetes, obesity, anemia, and related conditions) score higher, as do age 65 and older, several gaps at once, and a visit in the past year, because those patients can still be reached. High is a score of 5 or more. Medium is 3 or 4. Low is 2 or less. DENSE_RANK orders patients inside each provider so every clinician gets their own list.
+
+158 history findings and 129 diagnoses without 90 days of follow-up were left out of the rate. 151 patients with a gap had already died by the extract date and are not on the call list.

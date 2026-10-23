@@ -1,0 +1,758 @@
+ProviderRank,Priority,Score,Patient,Age,Sex,Provider,Speciality,Organization,City,Gaps,ChronicGaps,UrgentGaps,LeadCondition,LastVisit,DaysSinceVisit
+1,High,8,Sanford861 Fritsch593,96,M,Gaynell126 Streich926,GENERAL PRACTICE,VA Boston Healthcare System  Jamaica Plain Campus,Brookline,6,4,0,Diabetes,2020-04-24,4
+1,High,8,Antonia30 McKenzie376,80,M,Elinor7 Donnelly343,GENERAL PRACTICE,THE LEARNING CENTER FOR THE DEAF INC,Framingham,6,4,0,Neuropathy due to type 2 diabetes mellitus (disorder),2019-12-12,138
+1,High,8,Weldon459 Effertz744,76,M,Jesús825 Quiroz936,GENERAL PRACTICE,Quincy Outpatient Clinic,Quincy,9,4,0,Anemia (disorder),2020-04-17,11
+1,High,8,Sharleen176 Kulas532,110,F,Lai148 Friesen796,GENERAL PRACTICE,PCP4943,Pittsfield,8,3,0,Prediabetes,2020-03-07,52
+1,High,8,Dick869 Trantow673,95,M,Leonor133 Nájera755,GENERAL PRACTICE,Hyannis Outpatient Clinic,Dennis,4,3,0,Anemia (disorder),2020-01-01,118
+1,High,8,Temeka297 Gerlach374,87,F,Lucio648 Robel940,GENERAL PRACTICE,PCP2617,Waltham,9,3,0,Anemia (disorder),2020-04-26,2
+1,High,8,Elliott563 Towne435,79,M,Jesse626 Raynor401,GENERAL PRACTICE,PCP14063,Newburyport,5,3,0,Anemia (disorder),2020-04-15,13
+1,High,8,Maria750 Schoen8,78,F,Gertrudis163 Schaden604,GENERAL PRACTICE,Worcester Outpatient Clinic,Shrewsbury,8,3,0,Prediabetes,2019-12-12,138
+1,High,8,Rosalind66 Torp761,78,F,Riley817 Howell947,GENERAL PRACTICE,PCP14018,Lowell,7,3,0,Prediabetes,2019-11-24,156
+1,High,8,Bao544 Gutmann970,77,F,Edwina60 Christiansen251,GENERAL PRACTICE,PCP71080,Boston,5,3,0,Prediabetes,2019-07-21,282
+1,High,8,Richard937 Rice937,75,M,Sherly665 Brekke496,GENERAL PRACTICE,PCP29556,Greenfield,8,3,0,Anemia (disorder),2020-03-23,36
+1,High,7,Eilene124 Lockman863,67,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Bellingham,9,5,0,Chronic sinusitis (disorder),2019-07-28,275
+1,High,7,Corey514 Parker433,71,M,Audry167 Ledner144,GENERAL PRACTICE,KATHERINE J. ATKINSON  MD  PC,Amherst,4,3,0,Anemia (disorder),2019-07-10,293
+1,High,7,Garfield38 Cruickshank494,70,M,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Stow,7,3,0,Anemia (disorder),2020-02-25,63
+1,High,7,Jaunita130 Nolan344,69,F,Lon587 Moore224,GENERAL PRACTICE,PCP33045,Barnstable,5,3,0,Anemia (disorder),2019-07-18,285
+1,High,7,Lakenya863 Konopelski743,69,F,Melissia267 Bins636,GENERAL PRACTICE,SIGNATURE HEALTHCARE MEDICAL GROUP INC,Raynham,5,3,0,Anemia (disorder),2019-09-18,223
+1,High,7,Jimmy858 Reinger292,68,F,Verdell500 Hagenes547,GENERAL PRACTICE,OLIVIER GROUP PC,Dartmouth,5,3,0,Prediabetes,2020-03-18,41
+2,High,7,Maynard46 Roberts511,68,M,Gaynell126 Streich926,GENERAL PRACTICE,VA Boston Healthcare System  Jamaica Plain Campus,Boston,7,3,0,Anemia (disorder),2019-08-28,244
+1,High,7,Mervin111 Dietrich576,68,M,Merilyn246 Block661,GENERAL PRACTICE,PCP53831,Westport,5,3,0,Prediabetes,2020-04-18,10
+1,High,7,Mohammad578 Nikolaus26,68,M,Wayne846 Mertz280,GENERAL PRACTICE,Springfield Vet Center,Chicopee,6,3,0,Diabetes,2020-04-17,11
+1,High,7,Santos184 Fay398,108,M,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Chelmsford,8,2,0,Osteoporosis (disorder),2019-11-17,163
+1,High,7,Oneida64 Nicolas769,105,F,Jeramy610 Littel644,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,Norwood,7,2,0,Chronic sinusitis (disorder),2019-07-13,290
+1,High,7,Conchita9 Peres371,98,F,Corey514 Wiegand701,GENERAL PRACTICE,PCP130199,Cambridge,4,2,0,Prediabetes,2020-03-03,56
+1,High,7,Francisca486 Turner526,96,F,Jc393 Borer986,GENERAL PRACTICE,Springfield Outpatient Clinic,West Springfield,4,2,0,Chronic sinusitis (disorder),2020-02-04,84
+1,High,7,Araceli695 Reichel38,95,F,Albert312 Davis923,GENERAL PRACTICE,MASSACHUSETTS GENERAL PHYSICIANS ORGANIZATION  INC,Barnstable,6,2,0,Body mass index 30+ - obesity (finding),2019-12-02,148
+1,High,7,Nelda514 West559,82,F,Gertrudis163 Schaden604,GENERAL PRACTICE,SIGNATURE HEALTHCARE BROCKTON HOSPITAL,Stoughton,5,2,0,Body mass index 30+ - obesity (finding),2020-01-11,108
+1,High,7,Jorge203 Yundt842,80,M,Berniece493 Hahn503,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL GROUP  INC.,Northbridge,4,2,0,Anemia (disorder),2019-12-01,149
+1,High,7,Samatha845 Mueller846,79,F,Elroy493 McCullough561,GENERAL PRACTICE,PCP34087,Hanover,4,2,0,Hypertension,2020-04-03,25
+1,High,7,Shirley182 Wolff180,79,M,Kamilah729 Reynolds644,GENERAL PRACTICE,SPECIALIZED HEALTH MANAGEMENT INC,Boston,4,2,0,Prediabetes,2020-02-14,74
+1,High,7,Eunice461 Wilkinson796,78,F,Adriene242 Stokes453,GENERAL PRACTICE,PCP33080,Wellfleet,6,2,0,Hypertension,2020-01-21,98
+1,High,7,Lisha487 Mayert710,78,F,Homer307 Wiegand701,GENERAL PRACTICE,PCP4047,Abington,13,2,0,Anemia (disorder),2020-04-13,15
+1,High,7,Marcellus830 Lemke654,77,M,Tiffani287 Becker968,GENERAL PRACTICE,PCP27719,Chatham,6,2,0,Anemia (disorder),2020-04-25,3
+1,High,7,Laticia649 Moen819,76,F,Refugio197 Schumm995,GENERAL PRACTICE,PCP81196,Duxbury,4,2,0,Prediabetes,2019-08-01,271
+1,High,7,Irvin970 Goodwin327,108,M,Óscar156 Mateo562,GENERAL PRACTICE,New Bedford Vet Center,West Tisbury,4,1,0,Osteoporosis (disorder),2019-12-04,146
+1,High,7,Enedina292 Macejkovic424,104,F,Kenyetta225 Pagac496,GENERAL PRACTICE,PCP128082,Quincy,5,1,0,Body mass index 30+ - obesity (finding),2020-04-19,9
+1,High,7,Nickole723 Denesik803,102,F,Inge747 Heidenreich818,GENERAL PRACTICE,PCP34751,Barnstable,4,1,0,Prediabetes,2020-03-31,28
+1,High,7,Eura647 Ferry570,95,F,Terry864 Turner526,GENERAL PRACTICE,MARATHON PHYSICAL THERAPY AND SPORTS MEDICINE  LLC,Stoughton,6,1,0,Body mass index 30+ - obesity (finding),2019-09-07,234
+1,High,7,Nigel915 Green467,90,M,Reuben327 Mohr916,GENERAL PRACTICE,DR. STEVEN M. BELANGER  P.C.,Fall River,4,1,0,Hypertension,2019-07-20,283
+1,High,7,Judy192 Torphy630,77,F,Brande998 Donnelly343,GENERAL PRACTICE,PCP30089,Cambridge,4,1,0,Body mass index 30+ - obesity (finding),2019-12-26,124
+1,High,7,Jerold208 Harber290,76,M,Stefan297 Ferry570,GENERAL PRACTICE,BAYSTATE MEDICAL PRACTICES INC,Springfield,5,1,0,Hypertension,2019-06-13,320
+1,High,6,Patrick786 Farrell962,53,M,Zachary28 Gleason633,GENERAL PRACTICE,ADULT AND PEDIATRIC DERMATOLOGY  P.C.,Marlborough,10,5,0,Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder),2020-04-22,6
+1,High,6,Augustine565 Bruen238,41,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Medford,10,5,0,Neuropathy due to type 2 diabetes mellitus (disorder),2020-02-27,61
+1,High,6,Millard193 Stamm704,61,M,Ezra452 Crooks415,GENERAL PRACTICE,MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS  LLC,Lynn,5,4,0,Prediabetes,2020-04-08,20
+1,High,6,Apolonia139 Bailey598,57,F,Nilda678 Labadie908,GENERAL PRACTICE,PCP180186,Burlington,8,4,0,Anemia (disorder),2019-07-29,274
+2,High,6,Geoffrey157 Altenwerth646,43,M,Jeramy610 Littel644,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,Wellesley,5,4,0,Chronic sinusitis (disorder),2019-11-09,171
+1,High,6,Mariano761 Castillo397,71,M,Guadalupe206 Valenzuela371,GENERAL PRACTICE,COOLEY DICKINSON HOSPITAL INC THE,South Hadley,3,3,0,Anemia (disorder),2019-10-30,181
+1,High,6,Franklyn361 Bartoletti50,70,M,Blanca837 Feliciano160,GENERAL PRACTICE,PCP6716,Chelmsford,3,3,0,Anemia (disorder),2019-10-30,181
+1,High,6,Tonda472 Zemlak964,69,F,Octavio643 Yáñez198,GENERAL PRACTICE,PCP28779,Watertown,3,3,0,Prediabetes,2020-03-17,42
+1,High,6,Clara183 Lemus978,63,F,Tyler508 Lynch190,GENERAL PRACTICE,PCP24334,Waltham,6,3,0,Anemia (disorder),2020-02-18,70
+1,High,6,Kevin729 Adams676,62,M,Lynwood354 Monahan736,GENERAL PRACTICE,Lynn Community Based Outpatient Clinic (CBOC),Revere,5,3,0,Chronic sinusitis (disorder),2020-04-05,23
+1,High,6,Ali918 Vandervort697,61,M,Alane21 Tillman293,GENERAL PRACTICE,BAY STATE PHYSICAL THERAPY OF RANDOLPH PC,Salem,4,3,0,Prediabetes,2019-11-11,169
+1,High,6,Cyril535 Considine820,57,M,Rosio404 Hilpert278,GENERAL PRACTICE,TEAMWORK PHYSICAL THERAPY INC,New Bedford,4,3,0,Anemia (disorder),2019-05-14,350
+1,High,6,Malia984 Kuhic920,57,F,Grace552 Lubowitz58,GENERAL PRACTICE,CHARLES RIVER MEDICAL ASSOCIATES  PC,Shrewsbury,7,3,0,Anemia (disorder),2020-04-04,24
+1,High,6,Wendy149 Franecki195,56,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,4,3,0,Chronic sinusitis (disorder),2019-10-08,203
+1,High,6,Kendal125 Bartoletti50,46,F,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Peabody,7,3,0,Anemia (disorder),2020-03-29,30
+1,High,6,Sophie40 Kessler503,40,F,Machelle279 Breitenberg711,GENERAL PRACTICE,RELIANT MEDICAL GROUP  INC,Northborough,4,3,0,Prediabetes,2019-06-27,306
+1,High,6,Jefferey580 Goldner995,32,M,Alvin56 Goodwin327,GENERAL PRACTICE,PCP144782,Boston,4,3,0,Prediabetes,2019-07-11,292
+1,High,6,Kasie673 Rohan584,28,F,Fletcher87 Nienow652,GENERAL PRACTICE,PCP28914,Cambridge,6,3,0,Diabetes,2019-11-09,171
+1,High,6,Ira784 Tremblay80,99,M,Theron432 Pagac496,GENERAL PRACTICE,PCP32238,Boston,3,2,0,Body mass index 30+ - obesity (finding),2020-04-04,24
+1,High,6,Walker122 Will178,86,M,Leola603 Tremblay80,GENERAL PRACTICE,GOOD SAMARITAN MEDICAL CENTER,Hingham,3,2,0,Hypertension,2020-02-24,64
+1,High,6,Denny560 Bosco882,83,M,Della552 Steuber698,GENERAL PRACTICE,PCP8766,Franklin,3,2,0,Prediabetes,2019-09-18,223
+1,High,6,Cleveland582 Mayer370,81,M,Chelsie189 Weissnat378,GENERAL PRACTICE,CHIROPRACTIC CARE CENTERS INC,Fitchburg,3,2,0,Prediabetes,2020-04-14,14
+1,High,6,Ben667 Schaden604,76,M,Octavio643 Larson43,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL GROUP  INC.,Clinton,3,2,0,Body mass index 30+ - obesity (finding),2020-03-31,28
+1,High,6,Teodoro374 Bednar518,76,M,Annett908 Dare640,GENERAL PRACTICE,MOIRA L MCDERMOTT LOWER CAPE PODIATRY,Harwich,3,2,0,Anemia (disorder),2020-04-17,11
+1,High,6,Cary869 Jast432,73,M,Harry448 Lang846,GENERAL PRACTICE,PCP19483,New Bedford,5,2,0,Prediabetes,2019-08-21,251
+1,High,6,Ingrid581 Prohaska837,73,F,Violeta106 Morar593,GENERAL PRACTICE,STREFF ASSOCIATES  LLC,Stow,5,2,0,Prediabetes,2020-01-31,88
+1,High,6,Sharilyn202 Romaguera67,73,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,New Bedford,4,2,0,Chronic sinusitis (disorder),2019-11-04,176
+1,High,6,Shaun461 Graham902,73,F,Gus973 Rempel203,GENERAL PRACTICE,EYE ASSOCIATES PC,Wilmington,5,2,0,Prediabetes,2020-02-03,85
+1,High,6,Alease857 Strosin214,71,F,Ellis535 Graham902,GENERAL PRACTICE,PCP66942,Pittsfield,4,2,0,Body mass index 30+ - obesity (finding),2019-11-03,177
+1,High,6,Dion244 Bartoletti50,70,M,Jennette837 Ferry570,GENERAL PRACTICE,PCP114043,Freetown,4,2,0,Anemia (disorder),2020-03-17,42
+1,High,6,Kelvin159 Powlowski563,70,M,Mario764 Ávalos396,GENERAL PRACTICE,PCP112182,Revere,4,2,0,Body mass index 30+ - obesity (finding),2019-09-03,238
+1,High,6,Devona405 Erdman779,68,F,Tiana543 Blick895,GENERAL PRACTICE,HARRINGTON MEMORIAL HOSPITAL-1,Southbridge,4,2,0,Prediabetes,2020-01-23,96
+1,High,6,Víctor493 Carrion142,68,M,Devora529 Sipes176,GENERAL PRACTICE,BAYSTATE WING HOSPITAL AND MEDICAL CENTERS,Wilbraham,4,2,0,Chronic sinusitis (disorder),2020-02-15,73
+1,High,6,Edmund685 Walker122,66,M,Ernie189 Kohler843,GENERAL PRACTICE,PCP81276,Norwell,5,2,0,Body mass index 30+ - obesity (finding),2019-06-30,303
+1,High,6,Eugena417 Schmeler639,66,F,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Braintree,7,2,0,Body mass index 30+ - obesity (finding),2019-09-06,235
+1,High,6,Clair921 Fritsch593,65,F,Rhiannon677 Von197,GENERAL PRACTICE,BOSTON UNIVERSITY AFFILIATED PHYSICIANS  INC.,Sharon,5,2,0,Body mass index 30+ - obesity (finding),2019-05-24,340
+2,High,6,Shala169 Keeling57,65,F,Jesús825 Quiroz936,GENERAL PRACTICE,Quincy Outpatient Clinic,Quincy,5,2,0,Chronic sinusitis (disorder),2019-12-06,144
+1,High,6,Williams176 Hintz995,105,M,Ashlea10 Funk324,GENERAL PRACTICE,ST VINCENT HOSPITAL,Worcester,3,1,0,Chronic sinusitis (disorder),2020-03-22,37
+1,High,6,Humberto482 Grimes165,102,M,Alphonse92 Price929,GENERAL PRACTICE,PCP136067,North Brookfield,3,1,0,Body mass index 30+ - obesity (finding),2019-12-07,143
+1,High,6,Irina619 Rice937,92,F,Mark765 Toy286,GENERAL PRACTICE,PCP80867,Boston,3,1,0,Osteoporosis (disorder),2019-09-24,217
+1,High,6,Santana368 Tromp100,92,F,Clemente531 Armendáriz135,GENERAL PRACTICE,TANZMAN MASELLI AND ASSOCIATES PC,North Adams,2,1,0,Body mass index 30+ - obesity (finding),2020-02-27,61
+1,High,6,Humberto482 Gulgowski816,84,M,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Franklin,1,1,0,Chronic sinusitis (disorder),2020-02-27,61
+1,High,6,Brook779 Vandervort697,83,F,Jeramy610 Quigley282,GENERAL PRACTICE,PRIMA CARE PC,Swansea,3,1,0,Body mass index 30+ - obesity (finding),2020-03-20,39
+1,High,6,Salvador46 Lang846,82,M,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Fairhaven,1,1,0,Chronic sinusitis (disorder),2019-10-30,181
+1,High,6,Jacques50 Swift555,81,M,Cortez851 Swaniawski813,GENERAL PRACTICE,PCP163421,Raynham,2,1,0,Body mass index 30+ - obesity (finding),2019-08-24,248
+1,High,6,Naida467 Kuvalis369,80,F,Lurline371 Kautzer186,GENERAL PRACTICE,PCP211168,Boston,2,1,0,Body mass index 30+ - obesity (finding),2020-04-11,17
+1,High,6,Sammie902 Greenholt190,80,M,Benton624 Becker968,GENERAL PRACTICE,Plymouth Outreach Clinic,Plymouth,1,1,0,Chronic sinusitis (disorder),2020-01-21,98
+1,High,6,Cristobal567 Upton904,79,M,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Newton,2,1,0,Chronic sinusitis (disorder),2019-06-18,315
+1,High,6,Stevie682 Hilpert278,79,M,Anglea614 Weber641,GENERAL PRACTICE,PCP128503,Concord,3,1,0,Body mass index 30+ - obesity (finding),2019-09-03,238
+1,High,6,Lashawn862 Koepp521,78,F,Adria871 Boehm581,GENERAL PRACTICE,NORTHAMPTON RADIOLOGIC ASSOCIATES  INC.,Easthampton,2,1,0,Body mass index 30+ - obesity (finding),2020-03-10,49
+2,High,6,Mittie376 Rice937,74,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Waltham,4,1,0,Chronic sinusitis (disorder),2020-02-13,75
+1,High,6,Kendra609 Hills818,71,F,Judith460 Johns824,GENERAL PRACTICE,HOLY FAMILY HOSPITAL,Haverhill,5,1,0,Body mass index 30+ - obesity (finding),2020-03-11,48
+1,High,6,Ofelia194 Eichmann909,70,F,Haywood675 McCullough561,GENERAL PRACTICE,CAREWELL URGENT CARE CENTERS OF MA  PC,Boston,5,1,0,Body mass index 30+ - obesity (finding),2019-11-26,154
+1,High,6,Heath320 Price929,69,M,Royce974 Cremin516,GENERAL PRACTICE,PERFORMANCE REHABILITATION OF WESTERN NEW ENGLAND LLC,Lynn,5,1,0,Prediabetes,2020-01-15,104
+1,High,6,Lana840 Grady603,69,F,Amie520 Konopelski743,GENERAL PRACTICE,EYE HEALTH ASSOCIATES LLC,Fairhaven,4,1,0,Prediabetes,2019-12-15,135
+1,High,6,Mack300 Wisoky380,69,M,Robby860 Muller251,GENERAL PRACTICE,SOUTH SHORE SKIN CENTER  LLC,Scituate,6,1,0,Body mass index 30+ - obesity (finding),2020-04-10,18
+1,High,6,Micah422 Boyer713,67,F,Zachariah133 Jacobs452,GENERAL PRACTICE,PCP12382,Boston,5,1,0,Hypertension,2020-01-25,94
+1,High,5,Tomeka87 Gaylord332,54,F,Star250 Bechtelar572,GENERAL PRACTICE,PCP230103,Bridgewater,3,3,0,Anemia (disorder),2019-11-12,168
+1,High,5,Lavern240 Kreiger457,74,M,Mari763 Reynolds644,GENERAL PRACTICE,TERRI PEREIRA,Marlborough,3,2,0,Body mass index 30+ - obesity (finding),2019-05-09,355
+1,High,5,Ben667 Kessler503,73,M,Dorthy94 Volkman526,GENERAL PRACTICE,PCP297,Holliston,3,2,0,Anemia (disorder),2020-04-05,23
+1,High,5,Cody889 Ruecker817,71,M,Angie214 Williamson769,GENERAL PRACTICE,PCP134671,Attleboro,3,2,0,Anemia (disorder),2019-09-19,222
+2,High,5,Reyna401 Shanahan202,71,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Grafton,3,2,0,Chronic sinusitis (disorder),2020-04-13,15
+1,High,5,Thaddeus38 Runolfsdottir785,71,M,Julio255 Ramón841,GENERAL PRACTICE,PCP217897,Leominster,3,2,0,Anemia (disorder),2019-07-04,299
+1,High,5,Samatha845 Larkin917,65,F,Ethan766 Carter549,GENERAL PRACTICE,MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS  LLC,Cambridge,3,2,0,Prediabetes,2020-01-21,98
+1,High,5,Orlando897 Reichert620,63,M,Jacquetta148 Jenkins714,GENERAL PRACTICE,PCP205980,Lunenburg,5,2,0,Prediabetes,2019-06-20,313
+1,High,5,Thanh759 Wuckert783,63,F,Maybell872 Nolan344,GENERAL PRACTICE,CLINICAL AND SUPPORT OPTIONS  INC,Bernardston,4,2,0,Body mass index 30+ - obesity (finding),2020-04-14,14
+1,High,5,Toccara373 Larkin917,62,F,Perry780 Wiegand701,GENERAL PRACTICE,PCP31847,Worcester,5,2,0,Prediabetes,2020-01-27,92
+1,High,5,Connie24 Morar593,61,F,Regena252 McCullough561,GENERAL PRACTICE,PCP123154,Worcester,5,2,0,Body mass index 30+ - obesity (finding),2020-04-01,27
+1,High,5,Connie24 Schowalter414,58,F,Jason347 Streich926,GENERAL PRACTICE,PCP2795,Norfolk,4,2,0,Anemia (disorder),2020-02-19,69
+1,High,5,Mickey576 Padberg411,58,M,Brittani427 Satterfield305,GENERAL PRACTICE,MORTON HOSPITAL,Taunton,7,2,0,Chronic sinusitis (disorder),2020-03-28,31
+1,High,5,Salina386 Christiansen251,58,F,Randa356 Leuschke194,GENERAL PRACTICE,PCP3874,Shirley,4,2,0,Body mass index 30+ - obesity (finding),2020-03-31,28
+1,High,5,Viki353 Spencer878,58,F,Tiera511 Kerluke267,GENERAL PRACTICE,PCP34313,Gardner,8,2,0,Neuropathy due to type 2 diabetes mellitus (disorder),2020-03-11,48
+1,High,5,Danial835 D'Amore443,57,M,Lilliana632 Cronin387,GENERAL PRACTICE,NORTHEAST MEDICAL PRACTICE INC,Peabody,4,2,0,Prediabetes,2019-07-16,287
+1,High,5,Rene434 Schinner682,57,F,Margert370 Cartwright189,GENERAL PRACTICE,RIVERSIDE COMMUNITY CARE INC,Boston,4,2,0,Diabetes,2020-04-17,11
+1,High,5,Katia630 Thiel172,53,F,Jacque955 Bernhard322,GENERAL PRACTICE,ATRIUS HEALTH INC,Boston,4,2,0,Anemia (disorder),2020-03-10,49
+1,High,5,Sydney660 Ondricka197,53,M,Leslie90 Hand679,GENERAL PRACTICE,PCP218404,Billerica,5,2,0,Body mass index 30+ - obesity (finding),2020-04-07,21
+1,High,5,Ted955 Howell947,51,M,Hassan290 Rath779,GENERAL PRACTICE,Brockton Vet Center,Easton,4,2,0,Prediabetes,2020-04-16,12
+2,High,5,Daisy746 Dach178,50,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,8,2,0,Chronic sinusitis (disorder),2020-01-28,91
+1,High,5,Gilbert263 Parisian75,50,M,Malinda718 Cassin499,GENERAL PRACTICE,Boston Vet Center,Boston,4,2,0,Prediabetes,2020-04-23,5
+1,High,5,Sherrell611 Hodkiewicz467,50,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,South Hadley,7,2,0,Diabetes,2020-04-22,6
+1,High,5,Patrice780 Hills818,49,F,Hector463 Balistreri607,GENERAL PRACTICE,PCP50662,Needham,5,2,0,Anemia (disorder),2020-04-21,7
+1,High,5,Katerine813 Kassulke119,47,F,Reinaldo138 Jast432,GENERAL PRACTICE,PCP61989,Cambridge,8,2,0,Body mass index 30+ - obesity (finding),2020-04-22,6
+1,High,5,Theodora872 Schaden604,47,F,Reyna401 Keeling57,GENERAL PRACTICE,PCP6451,Springfield,4,2,0,Anemia (disorder),2020-03-23,36
+1,High,5,Hermila490 Wilkinson796,46,F,Cristen212 Baumbach677,GENERAL PRACTICE,WACHUSETT RADIOLOGY INC,Gardner,4,2,0,Body mass index 30+ - obesity (finding),2020-03-20,39
+1,High,5,Tonja658 Goldner995,46,F,Terry864 Wiegand701,GENERAL PRACTICE,CARNEY HOSPITAL,Boston,4,2,0,Chronic sinusitis (disorder),2019-11-12,168
+1,High,5,Zoila41 Wilkinson796,46,F,Bryon392 Skiles927,GENERAL PRACTICE,PCP21427,Barnstable,7,2,0,Prediabetes,2019-12-04,146
+1,High,5,Ashley34 Kuphal363,42,M,Numbers230 Bashirian201,GENERAL PRACTICE,DR KAREN RUSKIN AND ASSOCIATES INC,Walpole,4,2,0,Anemia (disorder),2019-08-19,253
+1,High,5,Esmeralda972 Lind531,42,F,Miquel905 Thiel172,GENERAL PRACTICE,PCP14226,Worcester,7,2,0,Anemia (disorder),2019-10-26,185
+1,High,5,Carlton317 Breitenberg711,40,M,Santos184 Kihn564,GENERAL PRACTICE,PCP20489,Medfield,5,2,0,Diabetes,2020-03-21,38
+2,High,5,Sheba703 Ziemann98,29,F,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Wakefield,5,2,0,Chronic sinusitis (disorder),2019-06-25,308
+3,High,5,Morton637 Smith67,25,M,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Blackstone,4,2,0,Chronic sinusitis (disorder),2019-10-22,189
+1,High,5,Glennie916 Pouros728,74,F,Harris789 Von197,GENERAL PRACTICE,PCP34565,Pittsfield,2,1,0,Body mass index 30+ - obesity (finding),2019-06-13,320
+1,High,5,Naida467 Raynor401,74,F,Waylon572 White193,GENERAL PRACTICE,SOUTH SHORE WOMEN'S HEALTH  P.C.,Brockton,2,1,0,Hypertension,2020-02-20,68
+1,High,5,Jeremy766 Kreiger457,73,M,Edie35 Howell947,GENERAL PRACTICE,SOUTH SHORE HOSPITAL,Boston,2,1,0,Chronic sinusitis (disorder),2020-04-15,13
+1,High,5,Taisha184 Balistreri607,73,F,Antone63 Dare640,GENERAL PRACTICE,RIVERSIDE COMMUNITY CARE INC,Cambridge,3,1,0,Prediabetes,2020-04-18,10
+1,High,5,Thanh759 Senger904,73,M,Ronna740 Walker122,GENERAL PRACTICE,ANJUM BAQAI MD PLLC,Winchester,2,1,0,Body mass index 30+ - obesity (finding),2019-07-17,286
+1,High,5,Kirk871 Reinger292,72,M,Felecia131 Runte676,GENERAL PRACTICE,DEDHAM OPHTHALMIC CONSULTANTS AND SURGEONS PC,Boston,3,1,0,Body mass index 30+ - obesity (finding),2020-04-01,27
+1,High,5,Lai148 Padberg411,72,F,Ingrid581 VonRueden376,GENERAL PRACTICE,PCP44556,Peabody,2,1,0,Body mass index 30+ - obesity (finding),2019-11-17,163
+1,High,5,Tonja658 Jast432,70,F,Leonardo412 Brakus656,GENERAL PRACTICE,POSTUM EYE CARE INC,Northbridge,1,1,0,Body mass index 30+ - obesity (finding),2019-12-29,121
+1,High,5,Felton646 Balistreri607,69,M,Victor265 Fadel536,GENERAL PRACTICE,PCP4675,Marshfield,2,1,0,Body mass index 30+ - obesity (finding),2019-09-09,232
+1,High,5,Isiah14 Fritsch593,69,M,Silva841 Fahey393,GENERAL PRACTICE,CONNECTICUT VALLEY ORAL SURGERY ASSOCIATES  PC,Leyden,1,1,0,Body mass index 30+ - obesity (finding),2020-04-18,10
+1,High,5,Madelyn308 Kutch271,69,F,Tawna357 Barton704,GENERAL PRACTICE,ST. VINCENT RADIOLOGICAL ASSOC.  INC.,Gardner,3,1,0,Body mass index 30+ - obesity (finding),2019-07-02,301
+1,High,5,Mickey576 Leffler128,69,F,Crista774 Cummings51,GENERAL PRACTICE,PCP262122,Boxford,3,1,0,Prediabetes,2019-10-06,205
+1,High,5,Rochell365 Koch169,69,F,Kory651 Dickens475,GENERAL PRACTICE,PCP14074,Milton,3,1,0,Body mass index 30+ - obesity (finding),2020-04-05,23
+1,High,5,Erasmo545 Goodwin327,68,M,Lavina533 Bashirian201,GENERAL PRACTICE,PCP134756,Hingham,2,1,0,Body mass index 30+ - obesity (finding),2019-06-07,326
+2,High,5,Christena299 Lang846,66,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Attleboro,1,1,0,Chronic sinusitis (disorder),2019-06-24,309
+1,High,5,Margery365 Bayer639,66,F,Emery884 Walsh511,GENERAL PRACTICE,HARRINGTON PHYSICIAN SERVICES INC,Warren,3,1,0,Body mass index 30+ - obesity (finding),2019-10-24,187
+1,High,5,Olen518 Heaney114,66,M,Horace32 Smith67,GENERAL PRACTICE,OCEAN STATE CARDIOVASCULAR AND VEIN CENTER  LLC,Milford,2,1,0,Body mass index 30+ - obesity (finding),2020-01-27,92
+1,High,5,Daryl568 Schiller186,65,M,Everette494 Towne435,GENERAL PRACTICE,PCP157187,Malden,2,1,0,Body mass index 30+ - obesity (finding),2019-09-05,236
+3,High,5,Kristan816 Wintheiser220,65,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,1,1,0,Chronic sinusitis (disorder),2019-12-09,141
+2,High,5,Maisha241 Bartell116,65,F,Leola603 Tremblay80,GENERAL PRACTICE,GOOD SAMARITAN MEDICAL CENTER,Bridgewater,2,1,0,Chronic sinusitis (disorder),2020-04-01,27
+1,High,5,Mina319 Gusikowski974,65,F,Ramón841 Patiño436,GENERAL PRACTICE,DR LAURA ANNE POTVIN PC,Groveland,3,1,0,Body mass index 30+ - obesity (finding),2020-01-10,109
+1,High,5,Sheldon401 Powlowski563,65,M,Malia984 O'Kon634,GENERAL PRACTICE,PCP30214,Holyoke,2,1,0,Body mass index 30+ - obesity (finding),2020-03-01,58
+1,High,5,Teri144 Fritsch593,65,F,Elisha578 Toy286,GENERAL PRACTICE,HD PHYSICAL THERAPY LLC,Wakefield,2,1,0,Body mass index 30+ - obesity (finding),2019-09-28,213
+1,High,5,Glenna97 Schuster709,63,F,Tana168 Weimann465,GENERAL PRACTICE,FOREST PARK EYE CARE PC,Springfield,5,1,0,Hypertension,2019-12-28,122
+1,High,5,Jerrold404 Purdy2,63,M,Cherelle538 Kunze215,GENERAL PRACTICE,PCP21707,Holyoke,5,1,0,Prediabetes,2020-02-19,69
+1,High,5,Raye931 Wunsch504,63,F,Kasi212 Hickle134,GENERAL PRACTICE,BRIGHAM AND WOMEN'S HOSPITAL,Quincy,4,1,0,Chronic sinusitis (disorder),2019-12-31,119
+2,High,5,Burl285 Wilkinson796,62,M,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Dartmouth,5,1,0,Body mass index 30+ - obesity (finding),2019-11-19,161
+1,High,5,Judith460 Legros616,61,F,Krystle484 Little434,GENERAL PRACTICE,PCP88738,Maynard,8,1,0,Body mass index 30+ - obesity (finding),2020-04-27,1
+2,High,5,Madelene819 Anderson154,61,F,Jennette837 Ferry570,GENERAL PRACTICE,PCP114043,New Bedford,4,1,0,Hypertension,2019-07-02,301
+2,High,5,Manie910 Torp761,61,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,South Hadley,4,1,0,Prediabetes,2019-07-07,296
+1,High,5,Weldon459 McGlynn426,61,M,Isaias604 Ortiz186,GENERAL PRACTICE,PCP15690,Newton,4,1,0,Body mass index 30+ - obesity (finding),2020-04-07,21
+1,High,5,Anissa357 Wuckert783,60,F,Whitney250 King743,GENERAL PRACTICE,PCP347488,Waltham,4,1,0,Hypertension,2020-03-18,41
+1,High,5,Colin861 Thiel172,60,M,Ines699 Weber641,GENERAL PRACTICE,PCP10127,Milton,4,1,0,Body mass index 30+ - obesity (finding),2019-05-27,337
+1,High,5,Romona686 Aufderhar910,59,F,Marcelino726 Terry864,GENERAL PRACTICE,SOUTH BAY MENTAL HEALTH CENTER  INC.,Salem,5,1,0,Body mass index 30+ - obesity (finding),2019-11-02,178
+1,High,5,Luz785 Cedillo160,58,F,Sunny31 Schowalter414,GENERAL PRACTICE,PCP68037,Boston,6,1,0,Body mass index 30+ - obesity (finding),2020-01-27,92
+1,High,5,Douglas31 Kunde533,57,M,Chase54 Pfeffer420,GENERAL PRACTICE,PCP96478,Ipswich,6,1,0,Body mass index 30+ - obesity (finding),2019-11-28,152
+1,High,5,Loria303 Boyer713,57,F,Dennis979 Von197,GENERAL PRACTICE,ELITE SPORTS INC,Foxborough,4,1,0,Hypertension,2019-06-11,322
+2,High,5,Mercedes82 Agosto501,57,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,5,1,0,Chronic sinusitis (disorder),2019-08-20,252
+1,High,5,Angila948 Huel628,56,F,Tomas436 Sauer652,GENERAL PRACTICE,HEALTHALLIANCE HOSPITALS  INC,Fitchburg,5,1,0,Chronic sinusitis (disorder),2019-08-18,254
+1,High,5,Cleopatra935 Grant908,56,F,Lloyd546 Davis923,GENERAL PRACTICE,MEDICAL CARE OF BOSTON MANAGEMENT CORPORATION,Newton,8,1,0,Body mass index 30+ - obesity (finding),2019-09-11,230
+1,High,5,Lakeesha370 Williamson769,56,F,Rodrigo242 Kreiger457,GENERAL PRACTICE,MOUNT AUBURN PATHOLOGISTS  INC.,Cambridge,4,1,0,Body mass index 30+ - obesity (finding),2020-04-14,14
+1,High,5,Analisa263 Kiehn525,55,F,Hassan290 Rath779,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - PLYMOUTH,Plymouth,5,1,0,Chronic sinusitis (disorder),2019-12-05,145
+1,High,5,Kellye282 Schuppe920,55,F,Denae137 Kuhic920,GENERAL PRACTICE,COMMUNITY HEALTH PROGRAMS INC,Great Barrington,4,1,0,Prediabetes,2019-12-14,136
+1,High,5,Marvel321 Wyman904,54,F,Lizeth852 Grimes165,GENERAL PRACTICE,PCP170662,Burlington,4,1,0,Body mass index 30+ - obesity (finding),2019-12-27,123
+1,High,5,Esther279 Wolf938,53,F,Maryetta775 Cormier289,GENERAL PRACTICE,PCP111254,Taunton,5,1,0,Body mass index 30+ - obesity (finding),2019-07-05,298
+1,High,5,Kim439 Ruecker817,53,F,Alonso270 Bruen238,GENERAL PRACTICE,PCP92836,Fitchburg,4,1,0,Prediabetes,2020-04-24,4
+1,High,5,Retta782 Volkman526,53,F,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Salem,4,1,0,Chronic sinusitis (disorder),2019-10-17,194
+2,High,5,Wenona350 Konopelski743,52,F,Haywood675 McCullough561,GENERAL PRACTICE,CAREWELL URGENT CARE CENTERS OF MA  PC,Boston,4,1,0,Hypertension,2020-03-20,39
+1,High,5,Joanna347 Hermiston71,51,F,Eleonore965 Conn188,GENERAL PRACTICE,SOUND PHYSICIANS OF MASSACHUSETTS INC,East Longmeadow,4,1,0,Body mass index 30+ - obesity (finding),2020-04-19,9
+1,High,5,Chas63 Lebsack687,50,M,Timoteo39 Garibay313,GENERAL PRACTICE,PCP39336,Somerville,4,1,0,Body mass index 30+ - obesity (finding),2019-07-01,302
+2,High,5,Mario764 Bahringer146,50,M,Violeta106 Morar593,GENERAL PRACTICE,STREFF ASSOCIATES  LLC,Stow,4,1,0,Body mass index 30+ - obesity (finding),2020-04-10,18
+1,High,5,Francisco472 Delrío329,48,M,Rubén780 Perea353,GENERAL PRACTICE,PCP137171,Weymouth,4,1,0,Prediabetes,2019-09-28,213
+1,High,5,Gertrud593 D'Amore443,48,F,Virgil85 Stroman228,GENERAL PRACTICE,MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS  LLC,Tewksbury,4,1,0,Body mass index 30+ - obesity (finding),2020-02-19,69
+1,High,5,Maryland870 Welch179,48,F,Fernando603 Sierra982,GENERAL PRACTICE,PCP9047,Brookline,4,1,0,Body mass index 30+ - obesity (finding),2019-08-15,257
+2,High,5,Daina567 Lubowitz58,47,F,Tiana543 Blick895,GENERAL PRACTICE,HARRINGTON MEMORIAL HOSPITAL-1,Holland,6,1,0,Body mass index 30+ - obesity (finding),2020-02-15,73
+1,High,5,Felecia131 Franecki195,47,F,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Woburn,4,1,0,Chronic sinusitis (disorder),2020-01-17,102
+1,High,5,Salina386 Hilpert278,46,F,Tari300 Dibbert990,GENERAL PRACTICE,PCP27026,Peabody,4,1,0,Prediabetes,2020-01-30,89
+4,High,5,Florinda19 Strosin214,45,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Northbridge,4,1,0,Chronic sinusitis (disorder),2019-10-12,199
+1,High,5,Ernie189 Stamm704,44,M,Ricky354 Leannon79,GENERAL PRACTICE,PCP310068,Boston,6,1,0,Hypertension,2020-04-21,7
+1,High,5,Bobbie849 Boyer713,42,F,Tyra356 Runte676,GENERAL PRACTICE,PCP32467,Waltham,6,1,0,Body mass index 30+ - obesity (finding),2020-04-16,12
+1,High,5,Kris249 Champlin946,42,F,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Fall River,6,1,0,Chronic sinusitis (disorder),2020-04-14,14
+1,High,5,Janelle257 Gorczany269,40,F,Mary779 Hirthe744,GENERAL PRACTICE,DENTAL SURGEONS OF FALL RIVER PC,New Bedford,7,1,0,Body mass index 30+ - obesity (finding),2020-04-19,9
+1,High,5,Cameron381 Lockman863,38,F,Tisha655 Dickens475,GENERAL PRACTICE,BOSTON CHILDREN'S HOSPITAL,Boston,4,1,0,Chronic sinusitis (disorder),2019-07-16,287
+1,High,5,Christal240 Brown30,37,F,Carolina179 McLaughlin530,GENERAL PRACTICE,MEDICAL CARE OF BOSTON MANAGEMENT CORPORATION,Boston,4,1,0,Body mass index 30+ - obesity (finding),2019-11-20,160
+3,High,5,Julio255 Juárez383,34,M,Tiana543 Blick895,GENERAL PRACTICE,HARRINGTON MEMORIAL HOSPITAL-1,North Brookfield,7,1,0,Chronic sinusitis (disorder),2019-11-25,155
+1,High,5,Clark193 Daugherty69,33,M,Alane21 Stark857,GENERAL PRACTICE,PCP26032,Cambridge,7,1,0,Body mass index 30+ - obesity (finding),2020-01-01,118
+1,High,5,Mohammad578 Wuckert783,32,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Chelsea,4,1,0,Chronic sinusitis (disorder),2020-01-30,89
+2,High,5,Ramona980 Valdivia496,32,F,Brittani427 Satterfield305,GENERAL PRACTICE,MORTON HOSPITAL,Taunton,6,1,0,Chronic sinusitis (disorder),2019-12-17,133
+1,High,5,Tianna963 Lehner980,31,F,Saundra460 Beer512,GENERAL PRACTICE,PCP1329,Northampton,4,1,0,Body mass index 30+ - obesity (finding),2020-04-15,13
+1,High,5,Gerard367 Lubowitz58,28,M,Sandy901 Denesik803,GENERAL PRACTICE,MINUTECLINIC DIAGNOSTIC OF MASSACHUSETTS  LLC,Mansfield,4,1,0,Body mass index 30+ - obesity (finding),2019-07-11,292
+1,High,5,Georgette866 Stark857,23,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Springfield,4,1,0,Chronic sinusitis (disorder),2020-04-20,8
+4,High,5,Horace32 Zulauf375,6,M,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Tewksbury,4,1,0,Chronic sinusitis (disorder),2020-03-27,32
+1,High,5,Astrid395 Dickens475,82,F,Lon587 Lind531,GENERAL PRACTICE,HEYWOOD HOSPITAL -,Winchendon,4,0,0,Viral sinusitis (disorder),2019-10-11,200
+2,High,5,Talisha682 Quitzon246,76,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Springfield,4,0,0,Acute viral pharyngitis (disorder),2020-04-20,8
+3,High,5,Mickey576 Crist667,22,M,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Lynn,2,0,1,Drug overdose,2020-03-01,58
+3,High,5,Shantay950 Bins636,21,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Fall River,1,0,1,Drug overdose,2020-04-14,14
+1,Medium,4,Merrill415 Wilderman619,49,F,Keeley419 Quigley282,GENERAL PRACTICE,PCP167629,Rutland,5,3,0,Prediabetes,2019-04-12,382
+1,Medium,4,Ignacio928 Regalado83,45,M,Sherril389 Marquardt819,GENERAL PRACTICE,PCP38895,Agawam,4,3,0,Anemia (disorder),2018-10-09,567
+1,Medium,4,Joe656 Howe413,79,M,Teressa589 Moore224,GENERAL PRACTICE,PCP36686,Provincetown,3,2,0,Anemia (disorder),2019-04-27,367
+1,Medium,4,Jim478 Abbott774,63,M,Delbert384 O'Connell601,GENERAL PRACTICE,PCP12160,Dover,3,2,0,Anemia (disorder),2020-01-28,91
+1,Medium,4,Jake169 Runolfsson901,61,M,Bryon392 Konopelski743,GENERAL PRACTICE,URGENT CARE SPECIALISTS PC,Holden,3,2,0,Prediabetes,2019-06-06,327
+1,Medium,4,David908 Bernal586,60,M,Lavonne167 Shanahan202,GENERAL PRACTICE,COMMONWEALTH PATHOLOGY PARTNERS PC,Salem,3,2,0,Anemia (disorder),2020-03-17,42
+2,Medium,4,Emerson869 Hagenes547,60,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Saugus,2,2,0,Chronic sinusitis (disorder),2019-07-17,286
+1,Medium,4,Mardell937 Ankunding277,60,F,Wilton999 Zulauf375,GENERAL PRACTICE,INDEPENDENCE EYE ASSOCIATES  LLC,Fall River,3,2,0,Body mass index 30+ - obesity (finding),2019-12-15,135
+1,Medium,4,Chi716 Sipes176,59,M,Wendi133 Farrell962,GENERAL PRACTICE,PCP130455,Woburn,3,2,0,Hypertension,2019-12-22,128
+2,Medium,4,Marcelle381 Crooks415,59,F,Tiera511 Kerluke267,GENERAL PRACTICE,PCP34313,Gardner,3,2,0,Body mass index 30+ - obesity (finding),2020-04-26,2
+1,Medium,4,Mui729 Kihn564,59,F,Leisha308 Gutkowski940,GENERAL PRACTICE,HILLTOWN COMMUNITY HEALTH CENTERS INC,Worthington,3,2,0,Prediabetes,2019-12-19,131
+1,Medium,4,Orval846 Gaylord332,58,M,Eliana466 Schamberger479,GENERAL PRACTICE,PCP80372,Boston,3,2,0,Anemia (disorder),2020-04-01,27
+1,Medium,4,Corine538 Macejkovic424,57,F,Jaqueline846 Reinger292,GENERAL PRACTICE,STURDY MEMORIAL ASSOCIATES  INC.,North Attleborough,3,2,0,Prediabetes,2019-12-29,121
+1,Medium,4,Homero668 Carrillo204,57,M,Joleen561 Oberbrunner298,GENERAL PRACTICE,PCP7593,Boston,3,2,0,Body mass index 30+ - obesity (finding),2019-10-24,187
+1,Medium,4,Minh326 Cummerata161,57,M,Juana825 Pedroza523,GENERAL PRACTICE,SIGNATURE HEALTHCARE MEDICAL GROUP INC,Rockland,2,2,0,Body mass index 30+ - obesity (finding),2019-11-15,165
+1,Medium,4,Jackie93 Gaylord332,56,M,Tyler508 Wyman904,GENERAL PRACTICE,PRACTITIONER SUPPORT SERVICES LLP,Needham,2,2,0,Prediabetes,2020-03-24,35
+4,Medium,4,Susy776 Smitham825,56,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Westport,3,2,0,Body mass index 30+ - obesity (finding),2020-01-17,102
+1,Medium,4,Benedict104 Fadel536,55,M,José Luis472 Reyes140,GENERAL PRACTICE,LAHEY CLINIC  INC.,Beverly,3,2,0,Anemia (disorder),2020-03-23,36
+1,Medium,4,Bree992 Hahn503,54,F,Phil587 Lakin515,GENERAL PRACTICE,PCP162430,Marblehead,2,2,0,Prediabetes,2019-12-17,133
+1,Medium,4,Santo387 Casper496,53,M,Kandi717 Hermann103,GENERAL PRACTICE,PAGGI PHYSICAL THERAPY AND SPORTS REHABILITATION  INC,Boston,2,2,0,Prediabetes,2019-08-04,268
+1,Medium,4,Carol737 Harber290,51,M,Aja848 Labadie908,GENERAL PRACTICE,PCP47638,Salisbury,3,2,0,Body mass index 30+ - obesity (finding),2020-01-23,96
+1,Medium,4,Jan231 Legros616,51,M,Elane105 Wolf938,GENERAL PRACTICE,PCP146764,Brockton,2,2,0,Prediabetes,2019-05-29,335
+1,Medium,4,Stanford577 Goodwin327,51,M,Scottie437 Cole117,GENERAL PRACTICE,PERFORMANCE REHABILITATION OF WESTERN NEW ENGLAND LLC,Somerville,2,2,0,Body mass index 30+ - obesity (finding),2020-02-29,59
+1,Medium,4,Burl285 Herzog843,50,M,Ivory697 Conroy74,GENERAL PRACTICE,LAHEY CLINIC  INC.,Haverhill,3,2,0,Anemia (disorder),2020-01-19,100
+1,Medium,4,Merideth332 Littel644,48,F,Michell380 Friesen796,GENERAL PRACTICE,PCP3357,Rockport,3,2,0,Prediabetes,2019-05-25,339
+1,Medium,4,Von197 Powlowski563,46,M,Rafael239 Cartwright189,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL GROUP  INC.,Clinton,3,2,0,Body mass index 30+ - obesity (finding),2019-08-11,261
+3,Medium,4,Aundrea980 Mertz280,45,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Waltham,3,2,0,Chronic sinusitis (disorder),2019-12-28,122
+1,Medium,4,Jeane173 Robel940,45,F,Von197 Murazik203,GENERAL PRACTICE,PCP158387,Boston,2,2,0,Anemia (disorder),2020-02-13,75
+2,Medium,4,Lionel365 Fadel536,42,M,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Fairhaven,3,2,0,Chronic sinusitis (disorder),2019-07-09,294
+1,Medium,4,Rhett759 Towne435,42,M,Felicitas300 Wiza601,GENERAL PRACTICE,BACK ON TRACK  P.C.,Cambridge,2,2,0,Prediabetes,2020-03-27,32
+1,Medium,4,Particia365 Effertz744,40,F,Juan88 Funk324,GENERAL PRACTICE,PCP113702,Pittsfield,2,2,0,Prediabetes,2019-12-31,119
+3,Medium,4,Leola603 Gulgowski816,39,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,South Hadley,3,2,0,Chronic sinusitis (disorder),2019-11-23,157
+4,Medium,4,Eusebio566 Cremin516,38,M,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Lynn,3,2,0,Chronic sinusitis (disorder),2019-08-18,254
+1,Medium,4,Juan88 Larkin917,37,M,Forrest301 Kuhlman484,GENERAL PRACTICE,JOHN M. SILISKI  M.D.  P.C.,Everett,2,2,0,Anemia (disorder),2019-12-25,125
+1,Medium,4,Victoria535 Mares644,37,F,Alaine226 Von197,GENERAL PRACTICE,URGENT CARE MEDICAL ASSOCIATES  LLC,Waltham,2,2,0,Diabetes,2019-09-09,232
+1,Medium,4,Augustine565 Emard19,36,M,Malinda718 Cassin499,GENERAL PRACTICE,CLINTON HOSPITAL ASSOCIATION,Clinton,3,2,0,Chronic sinusitis (disorder),2019-07-25,278
+1,Medium,4,Rachele486 Wiza601,35,F,Alana17 Wiegand701,GENERAL PRACTICE,PCP200248,Worcester,2,2,0,Anemia (disorder),2020-04-02,26
+3,Medium,4,Josiah310 Stokes453,33,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Reading,3,2,0,Chronic sinusitis (disorder),2019-05-12,352
+2,Medium,4,Angelic427 Wisoky380,64,F,Hassan290 Rath779,GENERAL PRACTICE,Brockton Vet Center,Seekonk,2,1,0,Body mass index 30+ - obesity (finding),2020-04-09,19
+1,Medium,4,Cristie97 Kiehn525,64,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,North Andover,2,1,0,Chronic sinusitis (disorder),2019-10-31,180
+4,Medium,4,Keren761 Kiehn525,64,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Lynn,2,1,0,Prediabetes,2020-03-23,36
+1,Medium,4,Vito638 Mraz590,64,M,Alfred550 Weber641,GENERAL PRACTICE,PCP9004,Westport,3,1,0,Body mass index 30+ - obesity (finding),2019-07-26,277
+1,Medium,4,Izola651 Ebert178,63,F,Kimbra238 Schultz619,GENERAL PRACTICE,PCP212787,New Bedford,2,1,0,Body mass index 30+ - obesity (finding),2020-04-18,10
+1,Medium,4,Laurence43 Weber641,63,M,Jefferson174 Cartwright189,GENERAL PRACTICE,WINCHESTER PHYSICIAN ASSOCIATES INC,Wilmington,1,1,0,Hypertension,2020-02-19,69
+4,Medium,4,Shanae34 Wiegand701,62,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Newton,1,1,0,Chronic sinusitis (disorder),2019-11-06,174
+1,Medium,4,Elena945 McDermott739,61,F,Evangelina20 Lueilwitz711,GENERAL PRACTICE,PCP19106,Cambridge,2,1,0,Hypertension,2020-04-03,25
+1,Medium,4,Eliseo499 Lind531,61,M,Normand813 Hermiston71,GENERAL PRACTICE,PCP159984,Boston,2,1,0,Hypertension,2019-09-29,212
+2,Medium,4,Elliot577 Hane680,61,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Somerville,1,1,0,Body mass index 30+ - obesity (finding),2020-01-06,113
+1,Medium,4,Evia329 Graham902,61,F,Óscar156 Mateo562,GENERAL PRACTICE,NOBLE HOSPITAL,Westfield,3,1,0,Chronic sinusitis (disorder),2019-12-25,125
+1,Medium,4,Gary33 Zulauf375,61,M,Latonia966 Jacobi462,GENERAL PRACTICE,STEWARD MEDICAL GROUP  INC,Halifax,1,1,0,Body mass index 30+ - obesity (finding),2019-11-25,155
+1,Medium,4,Miles206 Orn563,61,M,Gabriel934 Blick895,GENERAL PRACTICE,PCP193003,Dedham,1,1,0,Body mass index 30+ - obesity (finding),2019-09-14,227
+1,Medium,4,Oneida64 Kessler503,61,F,Dotty422 Considine820,GENERAL PRACTICE,PCP8369,New Bedford,2,1,0,Body mass index 30+ - obesity (finding),2019-11-20,160
+1,Medium,4,Teodoro374 Dooley940,61,M,Forrest301 Strosin214,GENERAL PRACTICE,NICOLE H. BOUDREAU MD P.C.,Boston,3,1,0,Body mass index 30+ - obesity (finding),2019-07-10,293
+1,Medium,4,Belinda283 Kilback373,60,F,Jimmy858 Witting912,GENERAL PRACTICE,PCP15430,Fairhaven,2,1,0,Hypertension,2020-03-09,50
+1,Medium,4,Chong355 Hickle134,60,M,Lynda214 Stracke611,GENERAL PRACTICE,STEWARD MEDICAL GROUP  INC,Boston,1,1,0,Body mass index 30+ - obesity (finding),2019-07-31,272
+1,Medium,4,Gertie348 Runolfsson901,60,F,Rusty501 Padberg411,GENERAL PRACTICE,PCP67111,Springfield,3,1,0,Body mass index 30+ - obesity (finding),2019-10-29,182
+1,Medium,4,Natashia109 Nitzsche158,60,F,Leonor133 Nájera755,GENERAL PRACTICE,ANNA JAQUES HOSPITAL,Salisbury,2,1,0,Body mass index 30+ - obesity (finding),2019-09-05,236
+1,Medium,4,Eugene421 Hintz995,58,M,Luis923 Barajas558,GENERAL PRACTICE,PCP34031,Grafton,3,1,0,Body mass index 30+ - obesity (finding),2019-07-11,292
+1,Medium,4,Fay398 Schuster709,58,F,Asia282 Gaylord332,GENERAL PRACTICE,PCP116246,Winchester,1,1,0,Body mass index 30+ - obesity (finding),2020-03-01,58
+1,Medium,4,Laine739 Langworth352,58,F,Jeromy156 Sauer652,GENERAL PRACTICE,MASS OPTOMETRIC ASSOCIATES  PLLC,Hatfield,2,1,0,Body mass index 30+ - obesity (finding),2019-12-25,125
+1,Medium,4,Diego848 Witting912,57,M,India495 Ruecker817,GENERAL PRACTICE,HALLMARK HEALTH MEDICAL ASSOCIATES INC,Medford,3,1,0,Body mass index 30+ - obesity (finding),2020-01-02,117
+4,Medium,4,Libbie63 Gaylord332,57,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Easthampton,1,1,0,Body mass index 30+ - obesity (finding),2020-03-19,40
+1,Medium,4,Mayte822 Candelaria844,57,F,Belle514 Vandervort697,GENERAL PRACTICE,PCP144578,Billerica,2,1,0,Body mass index 30+ - obesity (finding),2020-04-16,12
+1,Medium,4,Colin861 Jacobson885,56,M,Lynn917 Mann644,GENERAL PRACTICE,COMPREHENSIVE PHYSICAL THERAPY  PC,Worcester,3,1,0,Body mass index 30+ - obesity (finding),2019-06-26,307
+1,Medium,4,Corinna386 Boehm581,56,F,Tory770 Rowe323,GENERAL PRACTICE,PCP46659,Westport,2,1,0,Prediabetes,2020-02-09,79
+3,Medium,4,Guillermina633 Orellana194,56,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Rehoboth,1,1,0,Chronic sinusitis (disorder),2020-04-15,13
+1,Medium,4,Muoi890 Nolan344,56,F,Yesenia104 Cormier289,GENERAL PRACTICE,HOLLISTON VISION CENTER INC,Medway,2,1,0,Body mass index 30+ - obesity (finding),2020-01-09,110
+1,Medium,4,Williemae619 Daniel959,56,F,Ria154 Lebsack687,GENERAL PRACTICE,PCP115959,Palmer,2,1,0,Hypertension,2019-11-01,179
+1,Medium,4,Leonie332 Feil794,55,F,Susannah249 Conroy74,GENERAL PRACTICE,PCP259674,Leominster,2,1,0,Hypertension,2020-01-08,111
+1,Medium,4,Mariella503 Daugherty69,55,F,Sandee884 Kohler843,GENERAL PRACTICE,PCP164843,Auburn,2,1,0,Body mass index 30+ - obesity (finding),2019-12-25,125
+1,Medium,4,Mickey576 Denesik803,55,M,Ramon749 Legros616,GENERAL PRACTICE,PCP68975,Holliston,2,1,0,Hypertension,2020-02-09,79
+1,Medium,4,Trevor374 Kemmer137,55,M,Lavonda853 Berge125,GENERAL PRACTICE,MILFORD REGIONAL PHYSICIAN GROUP INC,Milford,2,1,0,Body mass index 30+ - obesity (finding),2019-10-06,205
+1,Medium,4,Aracelis412 O'Keefe54,54,F,Deloris888 Kirlin939,GENERAL PRACTICE,PCP167233,Stoneham,2,1,0,Prediabetes,2020-03-28,31
+1,Medium,4,Harland508 Krajcik437,54,M,Loreen513 Bergstrom287,GENERAL PRACTICE,CHIMA OHAEGBULAM MD PC,Boston,1,1,0,Hypertension,2020-04-06,22
+2,Medium,4,Raul814 Wintheiser220,54,M,Alfred550 Weber641,GENERAL PRACTICE,PCP9004,Westport,2,1,0,Body mass index 30+ - obesity (finding),2019-11-10,170
+1,Medium,4,Wilfred787 Hudson301,54,M,Isaias604 Harber290,GENERAL PRACTICE,PCP114756,Fitchburg,2,1,0,Body mass index 30+ - obesity (finding),2019-06-14,319
+1,Medium,4,Harmony242 Christiansen251,53,F,Darlena95 Pfannerstill264,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL CENTER INC,Shrewsbury,3,1,0,Chronic sinusitis (disorder),2020-01-30,89
+1,Medium,4,Marica887 Casper496,53,F,Stephenie799 Vandervort697,GENERAL PRACTICE,PCP131358,Lynn,2,1,0,Prediabetes,2019-11-20,160
+2,Medium,4,Myung778 Lynch190,53,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,North Andover,1,1,0,Chronic sinusitis (disorder),2019-07-24,279
+1,Medium,4,Stefania815 O'Kon634,53,F,Bernice532 Trantow673,GENERAL PRACTICE,PCP75141,Lexington,3,1,0,Body mass index 30+ - obesity (finding),2020-04-06,22
+1,Medium,4,Ardis509 Littel644,52,F,Dulce933 Schuppe920,GENERAL PRACTICE,NORTH SHORE PHYSICIANS GROUP INC,Lynn,1,1,0,Prediabetes,2019-07-26,277
+1,Medium,4,Caterina17 Schulist381,52,F,Fern75 Collins926,GENERAL PRACTICE,COMMUNITY HEALTHLINK INC,Fitchburg,3,1,0,Hypertension,2020-01-18,101
+1,Medium,4,Deon400 Fadel536,52,M,Cami698 D'Amore443,GENERAL PRACTICE,WESTFIELD MEDICAL CORPORATION,Agawam,2,1,0,Body mass index 30+ - obesity (finding),2019-06-11,322
+1,Medium,4,Karey608 Erdman779,52,F,Nida800 Witting912,GENERAL PRACTICE,CARL GUSTAFSON LLC,Concord,2,1,0,Hypertension,2019-07-29,274
+3,Medium,4,Lyndon118 Bins636,52,M,Jesús825 Quiroz936,GENERAL PRACTICE,Quincy Outpatient Clinic,Boston,2,1,0,Body mass index 30+ - obesity (finding),2019-11-10,170
+1,Medium,4,Margit604 D'Amore443,52,F,Rachell479 Williamson769,GENERAL PRACTICE,MERRIMACK VALLEY PET PC,Lawrence,3,1,0,Prediabetes,2020-03-07,52
+1,Medium,4,Phil587 Doyle959,52,M,Chauncey770 Durgan499,GENERAL PRACTICE,THE COMMONWEALTH OF MASSACHUSETTS,Bourne,3,1,0,Body mass index 30+ - obesity (finding),2020-01-12,107
+1,Medium,4,Regan713 Parisian75,52,F,Rusty501 Hoeger474,GENERAL PRACTICE,PCP30726,Sheffield,3,1,0,Hypertension,2020-02-06,82
+1,Medium,4,Stewart672 Bailey598,52,M,Ellen406 Schoen8,GENERAL PRACTICE,PCP95496,Randolph,1,1,0,Body mass index 30+ - obesity (finding),2019-10-26,185
+5,Medium,4,Valene773 Rippin620,52,F,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Salem,1,1,0,Body mass index 30+ - obesity (finding),2019-12-22,128
+1,Medium,4,Wesley533 Rau926,52,M,Olympia319 Schulist381,GENERAL PRACTICE,SOUTHCOAST PHYSICIANS GROUP  INC..,New Bedford,2,1,0,Hypertension,2020-02-19,69
+1,Medium,4,Arnetta705 Schumm995,51,F,Chester802 Quigley282,GENERAL PRACTICE,PCP143030,Reading,1,1,0,Hypertension,2020-01-21,98
+1,Medium,4,Hayden835 Schuster709,51,M,Trish512 Collins926,GENERAL PRACTICE,HALLMARK IMAGING ASSOCIATES  PC,Stoneham,3,1,0,Hypertension,2020-02-15,73
+1,Medium,4,Irena775 Wilkinson796,51,F,Tyron580 Smith67,GENERAL PRACTICE,PCP13525,Boston,2,1,0,Body mass index 30+ - obesity (finding),2020-03-30,29
+5,Medium,4,Solomon675 Cole117,51,M,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,2,1,0,Body mass index 30+ - obesity (finding),2019-12-11,139
+1,Medium,4,Ben667 Funk324,50,M,Reuben327 Herman763,GENERAL PRACTICE,PCP128586,Wareham,1,1,0,Prediabetes,2019-06-06,327
+2,Medium,4,Shaunda110 O'Keefe54,50,F,Lon587 Lind531,GENERAL PRACTICE,HEYWOOD HOSPITAL -,Rutland,1,1,0,Chronic sinusitis (disorder),2020-03-11,48
+1,Medium,4,Isabel214 Lucio648,49,F,Marisol435 Porras535,GENERAL PRACTICE,SOUTHCOAST PHYSICIANS GROUP  INC..,Fall River,1,1,0,Body mass index 30+ - obesity (finding),2020-02-11,77
+1,Medium,4,Miesha237 Wyman904,49,F,Leonel449 Will178,GENERAL PRACTICE,REHAB RESOLUTIONS INC,Westfield,2,1,0,Body mass index 30+ - obesity (finding),2020-03-28,31
+2,Medium,4,Tana168 Bechtelar572,49,F,Tomas436 Sauer652,GENERAL PRACTICE,HEALTHALLIANCE HOSPITALS  INC,Lunenburg,3,1,0,Body mass index 30+ - obesity (finding),2020-04-06,22
+1,Medium,4,Carolyne559 Yost751,48,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Millis,3,1,0,Body mass index 30+ - obesity (finding),2020-04-08,20
+1,Medium,4,Charise827 Reilly981,48,F,Elvin140 Pollich983,GENERAL PRACTICE,SOUTH SHORE RADIOLOGICAL ASSOCIATES  INC.,Braintree,2,1,0,Body mass index 30+ - obesity (finding),2019-07-10,293
+1,Medium,4,Elisa944 Ballesteros368,48,F,Siobhan540 Schinner682,GENERAL PRACTICE,PCP220699,Boston,2,1,0,Prediabetes,2020-01-21,98
+1,Medium,4,Ozzie259 Huel628,48,M,Tatum703 Daniel959,GENERAL PRACTICE,PCP91863,Malden,2,1,0,Body mass index 30+ - obesity (finding),2020-04-18,10
+1,Medium,4,Angella518 Reynolds644,47,F,Augustine565 Fisher429,GENERAL PRACTICE,PCP8458,Leverett,3,1,0,Body mass index 30+ - obesity (finding),2020-04-13,15
+1,Medium,4,Jere230 Zboncak558,47,M,Andre610 Cartwright189,GENERAL PRACTICE,PCP209281,Revere,1,1,0,Body mass index 30+ - obesity (finding),2020-03-03,56
+1,Medium,4,Lonnie913 Hayes766,47,M,Wynell591 Wisozk929,GENERAL PRACTICE,ADCARE HOSPITAL OF WORCESTER INC,Shrewsbury,2,1,0,Chronic sinusitis (disorder),2020-03-03,56
+1,Medium,4,Seema671 Kertzmann286,47,F,Leone669 Grimes165,GENERAL PRACTICE,PCP166697,Fall River,3,1,0,Hypertension,2019-10-05,206
+1,Medium,4,Sharolyn456 Reynolds644,47,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Natick,2,1,0,Chronic sinusitis (disorder),2019-11-26,154
+1,Medium,4,Louie190 Jacobi462,46,M,Mikel238 Wunsch504,GENERAL PRACTICE,PCP15785,Deerfield,3,1,0,Hypertension,2020-02-05,83
+1,Medium,4,Sara501 Arreola736,46,F,Matilde468 Bins636,GENERAL PRACTICE,PCP226397,Peabody,3,1,0,Body mass index 30+ - obesity (finding),2020-04-25,3
+1,Medium,4,Scottie437 Koss676,46,F,Maggie320 Willms744,GENERAL PRACTICE,PCP25692,Hamilton,2,1,0,Body mass index 30+ - obesity (finding),2020-04-16,12
+1,Medium,4,Orval846 Grimes165,45,M,Hong136 Runolfsson901,GENERAL PRACTICE,PCP36514,Medford,1,1,0,Body mass index 30+ - obesity (finding),2020-04-19,9
+1,Medium,4,Terrell212 Mann644,45,M,Burton124 Mitchell808,GENERAL PRACTICE,ENCOMPASS CARE COMPANY INC,Southborough,1,1,0,Body mass index 30+ - obesity (finding),2020-04-27,1
+1,Medium,4,Walter473 Marvin195,45,M,Antone63 Luettgen772,GENERAL PRACTICE,PCP97080,Plainville,2,1,0,Body mass index 30+ - obesity (finding),2019-06-14,319
+2,Medium,4,Clark193 Hilll811,44,M,Nida800 Witting912,GENERAL PRACTICE,CARL GUSTAFSON LLC,Framingham,2,1,0,Body mass index 30+ - obesity (finding),2020-03-05,54
+1,Medium,4,Lorelei90 Nitzsche158,44,F,Renna830 Jaskolski867,GENERAL PRACTICE,TOWARD INDEPENDENT LIVING AND LEARNING  INC.,Boston,1,1,0,Hypertension,2019-08-23,249
+1,Medium,4,Monte325 Maggio310,44,M,Wendi133 Hayes766,GENERAL PRACTICE,PCP59371,Salem,2,1,0,Body mass index 30+ - obesity (finding),2019-09-29,212
+1,Medium,4,Nydia801 Hyatt152,44,F,Luis923 Goyette777,GENERAL PRACTICE,PCP116731,Spencer,2,1,0,Body mass index 30+ - obesity (finding),2020-03-12,47
+3,Medium,4,Verdie59 Williamson769,44,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Lawrence,2,1,0,Chronic sinusitis (disorder),2020-04-07,21
+6,Medium,4,Aleisha941 Douglas31,43,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,3,1,0,Chronic sinusitis (disorder),2020-02-23,65
+3,Medium,4,Cathern761 Kuphal363,43,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,2,1,0,Body mass index 30+ - obesity (finding),2020-01-30,89
+1,Medium,4,Shirley182 Borer986,43,M,Gil594 Schultz619,GENERAL PRACTICE,PCP65288,Dedham,3,1,0,Body mass index 30+ - obesity (finding),2020-03-27,32
+3,Medium,4,Viva686 Gibson10,43,F,Jeramy610 Littel644,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,Natick,3,1,0,Chronic sinusitis (disorder),2019-11-10,170
+1,Medium,4,Delana41 Nikolaus26,42,F,Dolores502 Aguilera202,GENERAL PRACTICE,THAYER CHIROPRACTIC CENTER,Somerville,2,1,0,Prediabetes,2019-10-13,198
+1,Medium,4,Juliana372 Ward668,42,F,Nolan344 Mayer370,GENERAL PRACTICE,PCP69704,Weymouth,1,1,0,Hypertension,2020-04-17,11
+1,Medium,4,Loyd638 White193,42,M,Colby655 Luettgen772,GENERAL PRACTICE,PCP348274,Lexington,3,1,0,Hypertension,2020-02-27,61
+1,Medium,4,Oretha285 Ondricka197,42,F,Daisey627 Aufderhar910,GENERAL PRACTICE,PCP110579,Leominster,1,1,0,Body mass index 30+ - obesity (finding),2020-04-04,24
+1,Medium,4,Rudy520 Baumbach677,42,F,Drusilla108 Bauch723,GENERAL PRACTICE,SAINT VINCENT PHYSICIAN SERVICES INC,Worcester,1,1,0,Body mass index 30+ - obesity (finding),2020-04-25,3
+2,Medium,4,Despina962 Legros616,41,F,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Fairhaven,2,1,0,Body mass index 30+ - obesity (finding),2020-03-04,55
+1,Medium,4,Nanci249 Schaden604,41,F,Andres25 Toy286,GENERAL PRACTICE,PCP45581,Weston,3,1,0,Body mass index 30+ - obesity (finding),2020-03-07,52
+3,Medium,4,Gaston250 Muller251,40,M,Jennette837 Ferry570,GENERAL PRACTICE,PCP114043,New Bedford,2,1,0,Hypertension,2019-06-07,326
+1,Medium,4,Jacob959 Daniel959,40,M,Chantay958 Lakin515,GENERAL PRACTICE,ORTHOPAEDIC SPECIALISTS OF MASSACHUSETTS PC,Norwood,1,1,0,Body mass index 30+ - obesity (finding),2019-08-25,247
+1,Medium,4,Fausto876 Barrows492,39,M,Hung902 Sauer652,GENERAL PRACTICE,PCP258407,Middleborough,2,1,0,Hypertension,2020-03-23,36
+1,Medium,4,Rubye299 Upton904,39,F,Hollis7 Pagac496,GENERAL PRACTICE,PCP26392,Chicopee,2,1,0,Prediabetes,2020-04-09,19
+5,Medium,4,Julio César525 Vergara204,38,M,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Uxbridge,2,1,0,Chronic sinusitis (disorder),2020-04-23,5
+1,Medium,4,Valrie435 Mertz280,38,F,Merrill415 Pouros728,GENERAL PRACTICE,MASSACHUSETTS GENERAL PHYSICIANS ORGANIZATION  INC,Cambridge,1,1,0,Hypertension,2020-04-14,14
+1,Medium,4,Christeen33 Becker968,36,F,Deandre599 Langosh790,GENERAL PRACTICE,PCP169859,Winchendon,2,1,0,Body mass index 30+ - obesity (finding),2020-04-20,8
+6,Medium,4,Vennie613 Price929,36,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Blackstone,1,1,0,Chronic sinusitis (disorder),2019-12-15,135
+1,Medium,4,Alejandro916 D'Amore443,35,M,Scottie437 Kuhn96,GENERAL PRACTICE,KHOURY CHIROPRACTC  INC.,Blackstone,2,1,0,Hypertension,2019-12-28,122
+1,Medium,4,Cristie97 Johnson679,35,F,Man114 Dickens475,GENERAL PRACTICE,PCP47688,Lowell,3,1,0,Body mass index 30+ - obesity (finding),2019-08-08,264
+2,Medium,4,Kit446 Lang846,35,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Millis,1,1,0,Chronic sinusitis (disorder),2019-05-02,362
+1,Medium,4,Daniela614 Hernádez343,34,F,Quincy153 Heathcote539,GENERAL PRACTICE,ATHOL MEMORIAL HOSPITAL,Athol,2,1,0,Chronic sinusitis (disorder),2019-09-30,211
+2,Medium,4,Deetta949 Greenholt190,34,F,Maggie320 Willms744,GENERAL PRACTICE,PCP25692,Hamilton,1,1,0,Hypertension,2020-04-02,26
+1,Medium,4,Donovan745 Kiehn525,34,M,Michel472 Reichel38,GENERAL PRACTICE,PCP7483,Pittsfield,1,1,0,Hypertension,2020-04-01,27
+4,Medium,4,Elaine830 Wiza601,34,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Attleboro,1,1,0,Chronic sinusitis (disorder),2020-03-19,40
+1,Medium,4,Esteban536 Gorczany269,34,M,Emanuel231 Dickinson688,GENERAL PRACTICE,PCP144050,Boston,1,1,0,Body mass index 30+ - obesity (finding),2020-04-19,9
+2,Medium,4,Amado512 Morar593,33,M,Jeramy610 Quigley282,GENERAL PRACTICE,PRIMA CARE PC,Fall River,2,1,0,Hypertension,2020-04-23,5
+4,Medium,4,Leanna255 Cummerata161,33,F,Jeramy610 Littel644,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,Needham,1,1,0,Chronic sinusitis (disorder),2020-04-18,10
+2,Medium,4,Mario764 Kautzer186,33,F,Gertrudis163 Schaden604,GENERAL PRACTICE,SIGNATURE HEALTHCARE BROCKTON HOSPITAL,Brockton,3,1,0,Body mass index 30+ - obesity (finding),2019-08-25,247
+1,Medium,4,Pamela954 Greenholt190,33,F,Dionna991 Koss676,GENERAL PRACTICE,ORTHOPEDIC AND SPORTS PHYSICAL THERAPY  LLP,Chelsea,2,1,0,Prediabetes,2019-08-06,266
+1,Medium,4,Santiago500 Hermiston71,33,M,Darryl392 Hahn503,GENERAL PRACTICE,DUFER LLC,Boston,3,1,0,Hypertension,2020-02-08,80
+2,Medium,4,Cherrie404 Nicolas769,32,F,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Braintree,2,1,0,Anemia (disorder),2019-08-24,248
+1,Medium,4,Caron739 Will178,31,F,Georgetta870 Barrows492,GENERAL PRACTICE,PCP47896,Fitchburg,2,1,0,Body mass index 30+ - obesity (finding),2020-02-13,75
+1,Medium,4,James276 McClure239,31,F,Joi660 Wolf938,GENERAL PRACTICE,PCP113549,Westport,1,1,0,Body mass index 30+ - obesity (finding),2020-01-30,89
+3,Medium,4,Melisa53 Kreiger457,31,F,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Acushnet,2,1,0,Chronic sinusitis (disorder),2019-12-26,124
+3,Medium,4,Norma469 Mayer370,30,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Canton,2,1,0,Body mass index 30+ - obesity (finding),2020-02-29,59
+4,Medium,4,Oda116 Willms744,30,F,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Wareham,2,1,0,Chronic sinusitis (disorder),2020-03-27,32
+1,Medium,4,Kraig824 Hane680,29,M,Cheryle584 Goyette777,GENERAL PRACTICE,CAMBRIDGE PUBLIC HEALTH COMMISSION,Boston,2,1,0,Hypertension,2019-09-18,223
+2,Medium,4,Faustino767 Hayes766,28,M,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Acton,2,1,0,Chronic sinusitis (disorder),2019-11-28,152
+1,Medium,4,Zachary28 Runolfsson901,28,M,Mamie949 Spencer878,GENERAL PRACTICE,GEORGE P CHATSON MD  PC,Lawrence,2,1,0,Prediabetes,2019-08-27,245
+3,Medium,4,Clorinda310 Williamson769,27,F,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Milton,3,1,0,Chronic sinusitis (disorder),2020-02-01,87
+1,Medium,4,Luciana251 Jakubowski832,27,F,Paul232 Bosco882,GENERAL PRACTICE,LGH MEDICAL GROUP  INC.,Chelmsford,2,1,0,Body mass index 30+ - obesity (finding),2020-03-25,34
+1,Medium,4,Madie300 Beahan375,27,F,Catalina187 Olivo261,GENERAL PRACTICE,SHRINERS' HOSPITAL FOR CHILDREN (THE),Springfield,2,1,0,Chronic sinusitis (disorder),2019-11-14,166
+3,Medium,4,Laine739 Abbott774,26,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Agawam,1,1,0,Chronic sinusitis (disorder),2020-02-08,80
+1,Medium,4,Christene303 Brakus656,25,F,Jamey282 Kling921,GENERAL PRACTICE,PCP30645,Plymouth,1,1,0,Body mass index 30+ - obesity (finding),2020-02-18,70
+4,Medium,4,Dee580 Kris249,25,M,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Canton,1,1,0,Chronic sinusitis (disorder),2019-09-25,216
+3,Medium,4,Tanisha724 Schmidt332,25,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Boston,3,1,0,Chronic sinusitis (disorder),2020-04-21,7
+4,Medium,4,Maybelle917 Moore224,24,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Cambridge,2,1,0,Chronic sinusitis (disorder),2020-04-20,8
+7,Medium,4,Millard193 Dickens475,23,M,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Billerica,3,1,0,Chronic sinusitis (disorder),2019-07-24,279
+2,Medium,4,Rey54 Brown30,23,M,Leonor133 Nájera755,GENERAL PRACTICE,ANNA JAQUES HOSPITAL,Newburyport,3,1,0,Chronic sinusitis (disorder),2019-08-06,266
+1,Medium,4,Casey401 Hahn503,22,M,Bryant814 Murazik203,GENERAL PRACTICE,NANTUCKET COTTAGE HOSPITAL,Eastham,1,1,0,Chronic sinusitis (disorder),2019-07-07,296
+1,Medium,4,Madie300 McLaughlin530,22,F,Carson894 Denesik803,GENERAL PRACTICE,BOSTON NEUROPSYCHOLOGICAL SERVICES  LLC,Needham,3,1,0,Body mass index 30+ - obesity (finding),2019-11-18,162
+1,Medium,4,Soraya693 Koss676,20,F,Diego848 Schumm995,GENERAL PRACTICE,NARRAGANSETT BAY ANESTHESIA  LLC,Swansea,3,1,0,Body mass index 30+ - obesity (finding),2020-02-07,81
+3,Medium,4,Logan497 Torphy630,17,M,Leola603 Tremblay80,GENERAL PRACTICE,GOOD SAMARITAN MEDICAL CENTER,Abington,1,1,0,Chronic sinusitis (disorder),2019-12-13,137
+1,Medium,4,Bertram873 VonRueden376,16,M,Jamie386 Eichmann909,GENERAL PRACTICE,NEW ENGLAND BAPTIST HOSPITAL,Revere,3,1,0,Chronic sinusitis (disorder),2020-03-20,39
+2,Medium,4,Jimmie93 Harris789,16,F,Hassan290 Rath779,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - PLYMOUTH,Pembroke,2,1,0,Chronic sinusitis (disorder),2020-01-25,94
+2,Medium,4,Kermit56 Barton704,16,M,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Beverly,1,1,0,Body mass index 30+ - obesity (finding),2019-09-20,221
+3,Medium,4,Loan904 Stoltenberg489,16,F,Hassan290 Rath779,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - PLYMOUTH,Scituate,2,1,0,Chronic sinusitis (disorder),2020-04-09,19
+2,Medium,4,Dorotea472 Montez99,15,F,Wynell591 Wisozk929,GENERAL PRACTICE,ADCARE HOSPITAL OF WORCESTER INC,Worcester,1,1,0,Chronic sinusitis (disorder),2020-01-30,89
+1,Medium,4,Stanton715 Conroy74,15,M,Jesús825 Quiroz936,GENERAL PRACTICE,BERKSHIRE MEDICAL CENTER INC - 1,Dalton,1,1,0,Chronic sinusitis (disorder),2019-07-14,289
+5,Medium,4,Kandice471 Boehm581,13,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Seekonk,2,1,0,Chronic sinusitis (disorder),2019-10-11,200
+2,Medium,4,Darren774 Keebler762,12,M,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Woburn,2,1,0,Chronic sinusitis (disorder),2019-05-11,353
+3,Medium,4,Michel472 Lang846,102,M,Leonor133 Nájera755,GENERAL PRACTICE,ANNA JAQUES HOSPITAL,Newburyport,3,0,0,Viral sinusitis (disorder),2019-10-28,183
+5,Medium,4,Verlie371 Fay398,93,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Melrose,3,0,0,Drug overdose,2020-01-22,97
+3,Medium,4,Cassandra224 O'Reilly797,84,F,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Woburn,1,0,0,Viral sinusitis (disorder),2020-01-10,109
+3,Medium,4,Mahalia897 Wyman904,83,F,Tomas436 Sauer652,GENERAL PRACTICE,HEALTHALLIANCE HOSPITALS  INC,Lunenburg,1,0,0,Acute viral pharyngitis (disorder),2020-02-14,74
+1,Medium,4,Carlota980 Stracke611,81,F,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Barnstable,3,0,0,Acute viral pharyngitis (disorder),2020-02-26,62
+5,Medium,4,Erika442 Becker968,80,F,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Middleborough,2,0,0,Chronic intractable migraine without aura,2020-03-19,40
+2,Medium,4,Andre610 Murray856,77,F,Darlena95 Pfannerstill264,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL CENTER INC,Worcester,3,0,0,Viral sinusitis (disorder),2019-12-30,120
+2,Medium,4,Mertie42 Leannon79,77,F,Guadalupe206 Valenzuela371,GENERAL PRACTICE,COOLEY DICKINSON HOSPITAL INC THE,Williamsburg,1,0,0,Streptococcal sore throat (disorder),2020-03-13,46
+3,Medium,4,Suzanna632 Balistreri607,70,F,Brittani427 Satterfield305,GENERAL PRACTICE,MORTON HOSPITAL,Taunton,5,0,0,Osteoarthritis of knee,2020-04-12,16
+3,Medium,4,Timoteo39 Rico947,65,M,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,New Bedford,8,0,0,Concussion with no loss of consciousness,2019-08-31,241
+1,Medium,3,Theo630 Kuvalis369,31,M,Raphael767 Connelly992,GENERAL PRACTICE,PCP7021,Tewksbury,3,3,0,Anemia (disorder),2017-05-04,1090
+1,Medium,3,José Luis472 Villalobos491,47,M,Alice368 Klein929,GENERAL PRACTICE,EYE ASSOCIATES OF SOMERVILLE INC.,Medford,4,2,0,Anemia (disorder),2019-01-08,476
+1,Medium,3,Glendora96 Thompson596,45,F,Reuben327 Swift555,GENERAL PRACTICE,MEDEXPRESS URGENT CARE PC MASSACHUSETTS,Chicopee,4,2,0,Prediabetes,2019-01-26,458
+1,Medium,3,Herschel574 Wilkinson796,41,M,Leonila462 Rippin620,GENERAL PRACTICE,PCP31073,Rehoboth,5,2,0,Prediabetes,2018-10-23,553
+1,Medium,3,Noel608 Greenholt190,41,F,Tracy345 Koelpin146,GENERAL PRACTICE,PCP131480,Weymouth,4,2,0,Anemia (disorder),2019-04-01,393
+1,Medium,3,Pilar644 Boyer713,46,F,Karyl215 VonRueden376,GENERAL PRACTICE,PCP161804,Springfield,6,1,0,Body mass index 30+ - obesity (finding),2018-05-05,724
+1,Medium,3,Agustin437 Schmidt332,38,M,Hobert364 D'Amore443,GENERAL PRACTICE,PCP110367,Boston,4,1,0,Body mass index 30+ - obesity (finding),2018-11-28,517
+1,Medium,3,Homer307 Mayer370,35,M,Blanch844 Bradtke547,GENERAL PRACTICE,PCP15602,Gloucester,4,1,0,Body mass index 30+ - obesity (finding),2018-11-30,515
+4,Medium,3,Jon665 Zboncak558,24,M,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,North Andover,4,1,0,Chronic sinusitis (disorder),2017-12-19,861
+1,Medium,3,Noble66 Sipes176,74,M,Von197 Mraz590,GENERAL PRACTICE,Fitchburg Outpatient Clinic,Fitchburg,3,0,0,Viral sinusitis (disorder),2020-04-01,27
+5,Medium,3,Dulce933 Keebler762,73,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Malden,1,0,0,Miscarriage in first trimester,2020-02-29,59
+5,Medium,3,Kermit56 Rutherford999,73,M,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Fall River,1,0,0,Viral sinusitis (disorder),2019-08-12,260
+2,Medium,3,Lola232 Abernathy524,72,F,Devora529 Sipes176,GENERAL PRACTICE,BAYSTATE WING HOSPITAL AND MEDICAL CENTERS,Belchertown,2,0,0,Viral sinusitis (disorder),2020-04-14,14
+6,Medium,3,Alda400 Kris249,71,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Attleboro,2,0,0,Viral sinusitis (disorder),2020-03-15,44
+6,Medium,3,Denis399 Williamson769,71,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Malden,2,0,0,Acute viral pharyngitis (disorder),2019-11-29,151
+1,Medium,3,Eddie505 Aufderhar910,70,M,Clint766 Goldner995,GENERAL PRACTICE,EMERSON HOSPITAL -,Worcester,3,0,0,Acute viral pharyngitis (disorder),2020-02-22,66
+5,Medium,3,Cherryl901 Jacobson885,69,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Norwood,1,0,0,Viral sinusitis (disorder),2020-03-10,49
+2,Medium,3,Keva141 Shanahan202,69,F,Jesús825 Quiroz936,GENERAL PRACTICE,BERKSHIRE MEDICAL CENTER INC - 1,Williamstown,1,0,0,Concussion with loss of consciousness,2019-11-06,174
+6,Medium,3,Jacques50 Leannon79,68,M,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Fall River,2,0,0,Acute viral pharyngitis (disorder),2020-02-01,87
+2,Medium,3,Jerrell6 D'Amore443,68,M,Edie35 Howell947,GENERAL PRACTICE,SOUTH SHORE HOSPITAL,Weymouth,2,0,0,Acute viral pharyngitis (disorder),2020-01-26,93
+4,Medium,3,Sabina296 Lind531,68,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Springfield,1,0,0,Viral sinusitis (disorder),2019-07-16,287
+2,Medium,3,Adan632 King743,67,M,Von197 Mraz590,GENERAL PRACTICE,Fitchburg Outpatient Clinic,Westminster,2,0,0,Viral sinusitis (disorder),2020-04-08,20
+3,Medium,3,Lynette631 Walter473,67,F,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Danvers,3,0,0,Appendicitis,2019-12-21,129
+2,Medium,3,Xavier983 Steuber698,67,M,Clint766 Goldner995,GENERAL PRACTICE,EMERSON HOSPITAL -,Worcester,1,0,0,Stroke,2019-12-17,133
+2,Medium,3,Brett333 Mante251,66,M,Leonor133 Nájera755,GENERAL PRACTICE,Hyannis Outpatient Clinic,Barnstable,1,0,0,Polyp of colon,2019-12-26,124
+4,Medium,3,Janna498 Anderson154,65,F,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Quincy,2,0,0,Acute viral pharyngitis (disorder),2019-12-19,131
+6,Medium,3,Laverna97 Cartwright189,65,F,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Rochester,2,0,0,Acute viral pharyngitis (disorder),2019-07-26,277
+7,Medium,3,Sam879 Corkery305,65,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Swansea,1,0,0,Viral sinusitis (disorder),2019-11-07,173
+1,Medium,3,Terrence276 Goodwin327,65,M,Tomas436 Sauer652,GENERAL PRACTICE,Edith Nourse Rogers Memorial Veterans Hospital (Bedford VA),Waltham,1,0,0,Polyp of colon,2020-03-27,32
+1,Medium,3,Andres25 Dietrich576,61,M,Suzette512 Monahan736,GENERAL PRACTICE,VA Boston Healthcare System  Brockton Campus,Brockton,4,0,0,Viral sinusitis (disorder),2020-02-24,64
+8,Medium,3,Tiara667 Reinger292,61,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,6,0,0,Cardiac Arrest,2020-04-19,9
+4,Medium,3,Garth972 Hettinger594,58,M,Hassan290 Rath779,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - PLYMOUTH,Kingston,4,0,0,Acute viral pharyngitis (disorder),2020-01-25,94
+1,Medium,3,Valentin929 Grady603,56,M,Guadalupe206 Valenzuela371,GENERAL PRACTICE,Lowell Veterans Community Care Center,Lowell,5,0,0,Viral sinusitis (disorder),2020-02-14,74
+3,Medium,3,Elane105 Bradtke547,52,F,Gertrudis163 Schaden604,GENERAL PRACTICE,SIGNATURE HEALTHCARE BROCKTON HOSPITAL,Abington,4,0,0,Viral sinusitis (disorder),2019-11-18,162
+5,Medium,3,Brain142 Crona259,51,M,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Hampden,4,0,0,Drug overdose,2020-04-25,3
+5,Medium,3,Conchita9 Rolón954,46,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Holyoke,4,0,0,Metabolic syndrome X (disorder),2020-04-23,5
+5,Medium,3,Myrle831 Schamberger479,40,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Lawrence,5,0,0,Concussion with no loss of consciousness,2020-02-29,59
+4,Medium,3,Zack583 McKenzie376,40,M,Leola603 Tremblay80,GENERAL PRACTICE,GOOD SAMARITAN MEDICAL CENTER,Brockton,5,0,0,Viral sinusitis (disorder),2020-03-08,51
+7,Medium,3,Mario764 Waters156,35,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Saugus,4,0,0,Normal pregnancy,2020-04-21,7
+2,Medium,3,Traci329 Volkman526,35,F,Bryant814 Murazik203,GENERAL PRACTICE,NANTUCKET COTTAGE HOSPITAL,Nantucket,4,0,0,Normal pregnancy,2020-04-14,14
+2,Medium,3,Jesus702 Hickle134,33,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,5,0,0,Normal pregnancy,2020-04-12,16
+4,Medium,3,Caroll955 Kuhic920,29,F,Tiana543 Blick895,GENERAL PRACTICE,HARRINGTON MEMORIAL HOSPITAL-1,Webster,4,0,0,Viral sinusitis (disorder),2020-01-10,109
+4,Medium,3,Cristobal567 Parra592,24,M,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Beverly,4,0,0,Viral sinusitis (disorder),2019-12-07,143
+1,Medium,3,Lazaro919 Gorczany269,11,M,Zana914 Considine820,GENERAL PRACTICE,LAHEY HOSPITAL & MEDICAL CENTER  BURLINGTON,Burlington,7,0,0,Viral sinusitis (disorder),2020-04-20,8
+4,Medium,3,Sylvia544 West559,10,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,4,0,0,Viral sinusitis (disorder),2020-03-01,58
+1,Low,2,Francisco472 Burgos636,47,M,Norbert530 Wisozk929,GENERAL PRACTICE,PCP17929,Boston,2,2,0,Prediabetes,2018-12-25,490
+6,Low,2,Rosalind66 Lesch175,40,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Lawrence,3,2,0,Prediabetes,2017-07-15,1018
+1,Low,2,Adán600 Espinosa298,47,M,Carita426 Langworth352,GENERAL PRACTICE,HEALTH EXPRESS LLC,Pembroke,3,1,0,Body mass index 30+ - obesity (finding),2018-12-29,486
+1,Low,2,Dave764 Hilpert278,47,M,Mitchell808 Rolfson709,GENERAL PRACTICE,PCP316524,Southborough,1,1,0,Body mass index 30+ - obesity (finding),2018-09-24,582
+1,Low,2,Adam631 Zboncak558,45,M,Lesa839 Bednar518,GENERAL PRACTICE,PCP163305,Norwood,2,1,0,Body mass index 30+ - obesity (finding),2018-06-19,679
+1,Low,2,Dannie881 Smitham825,45,M,Tobias236 Bechtelar572,GENERAL PRACTICE,BAY STATE PHYSICAL THERAPY OF RANDOLPH PC,Plymouth,3,1,0,Body mass index 30+ - obesity (finding),2018-08-14,623
+1,Low,2,Emile522 Reichert620,43,M,Donald774 Mitchell808,GENERAL PRACTICE,MASSACHUSETTS GENERAL PHYSICIANS ORGANIZATION  INC,Boston,3,1,0,Body mass index 30+ - obesity (finding),2019-02-14,439
+1,Low,2,Benedict104 Emard19,38,M,Joseph689 Ernser583,GENERAL PRACTICE,PRESIDENT AND FELLOWS OF HARVARD COLLEGE,Somerville,2,1,0,Body mass index 30+ - obesity (finding),2018-12-17,498
+1,Low,2,Julienne688 Parker433,38,F,Rochell365 Runte676,GENERAL PRACTICE,PCP19378,Fairhaven,1,1,0,Body mass index 30+ - obesity (finding),2018-12-30,485
+2,Low,2,Latoyia537 Schaden604,38,F,Catalina187 Olivo261,GENERAL PRACTICE,SHRINERS' HOSPITAL FOR CHILDREN (THE),Springfield,2,1,0,Chronic sinusitis (disorder),2018-10-27,549
+2,Low,2,Leatha675 Adams676,36,F,Hung902 Sauer652,GENERAL PRACTICE,PCP258407,Middleborough,3,1,0,Body mass index 30+ - obesity (finding),2019-03-07,418
+1,Low,2,Mina319 Ullrich385,36,F,Cheree978 Cassin499,GENERAL PRACTICE,MASSACHUSETTS EYE AND EAR INFIRMARY -,Boston,3,1,0,Chronic sinusitis (disorder),2018-12-14,501
+3,Low,2,Homero668 Reyes140,33,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Hopkinton,2,1,0,Chronic sinusitis (disorder),2018-05-30,699
+6,Low,2,Anton902 Heathcote539,32,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Cambridge,2,1,0,Chronic sinusitis (disorder),2018-08-30,607
+1,Low,2,Jeffrey461 Carter549,32,M,Clay913 Cassin499,GENERAL PRACTICE,PCP43350,Longmeadow,3,1,0,Body mass index 30+ - obesity (finding),2018-11-11,534
+6,Low,2,José Eduardo181 Gómez206,30,M,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Chicopee,1,1,0,Chronic sinusitis (disorder),2019-03-20,405
+1,Low,2,Teodoro374 Considine820,29,M,Benton624 Becker968,GENERAL PRACTICE,ST ELIZABETH'S MEDICAL CENTER,Boston,2,1,0,Chronic sinusitis (disorder),2018-12-24,491
+6,Low,2,Cornell131 Goyette777,27,M,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Revere,1,1,0,Chronic sinusitis (disorder),2018-05-08,721
+3,Low,2,Drew592 Lind531,27,M,Guadalupe206 Valenzuela371,GENERAL PRACTICE,COOLEY DICKINSON HOSPITAL INC THE,Hatfield,3,1,0,Chronic sinusitis (disorder),2018-05-03,726
+8,Low,2,Forrest301 Jacobs452,27,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Everett,2,1,0,Chronic sinusitis (disorder),2017-12-11,869
+1,Low,2,Marx778 Sauer652,26,F,Lynelle567 Ondricka197,GENERAL PRACTICE,PCP41867,Billerica,2,1,0,Body mass index 30+ - obesity (finding),2019-02-24,429
+4,Low,2,Alberto639 Schiller186,24,M,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Fall River,2,1,0,Chronic sinusitis (disorder),2018-01-23,826
+1,Low,2,Eileen854 Gulgowski816,24,F,Jeanene972 Smitham825,GENERAL PRACTICE,PCP33041,Southborough,3,1,0,Prediabetes,2018-08-24,613
+7,Low,2,Jessie665 Hegmann834,24,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Chelsea,1,1,0,Childhood asthma,2018-09-06,600
+7,Low,2,Floyd420 Conroy74,63,M,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Uxbridge,1,0,0,Viral sinusitis (disorder),2019-12-13,137
+3,Low,2,Kathrine376 Ledner144,63,F,Lon587 Lind531,GENERAL PRACTICE,HEYWOOD HOSPITAL -,Westminster,2,0,0,Viral sinusitis (disorder),2019-08-02,270
+3,Low,2,Annalee788 Spencer878,62,F,Edie35 Howell947,GENERAL PRACTICE,SOUTH SHORE HOSPITAL,Milton,3,0,0,Acute viral pharyngitis (disorder),2019-06-29,304
+4,Low,2,Danae973 Bartoletti50,62,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,1,0,0,Malignant neoplasm of breast (disorder),2020-04-19,9
+6,Low,2,Amada498 Reichert620,61,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Foxborough,3,0,0,Viral sinusitis (disorder),2020-04-28,0
+5,Low,2,Brad867 Parker433,61,M,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Quincy,2,0,0,Viral sinusitis (disorder),2019-11-22,158
+3,Low,2,Randa356 Braun514,61,F,Jesús825 Quiroz936,GENERAL PRACTICE,BERKSHIRE MEDICAL CENTER INC - 1,Pittsfield,3,0,0,Tubal pregnancy,2020-01-24,95
+5,Low,2,Jordon466 Harber290,60,M,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Middleton,2,0,0,Viral sinusitis (disorder),2020-03-19,40
+8,Low,2,Soledad678 McDermott739,60,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Fall River,1,0,0,Viral sinusitis (disorder),2020-04-17,11
+4,Low,2,Rosario163 Labadie908,59,M,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Woburn,1,0,0,Acute viral pharyngitis (disorder),2020-02-19,69
+1,Low,2,Emilio417 Amador986,58,M,Pamelia915 Harber290,GENERAL PRACTICE,BETH ISRAEL DEACONESS MEDICAL CENTER,Boston,2,0,0,Acute viral pharyngitis (disorder),2019-09-18,223
+3,Low,2,Ellamae709 Bins636,57,F,Devora529 Sipes176,GENERAL PRACTICE,BAYSTATE WING HOSPITAL AND MEDICAL CENTERS,Ware,2,0,0,Osteoarthritis of knee,2020-03-31,28
+8,Low,2,Melinda114 Price929,57,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Arlington,3,0,0,Acute viral pharyngitis (disorder),2019-10-22,189
+7,Low,2,Grace552 Hartmann983,55,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Walpole,2,0,0,Viral sinusitis (disorder),2020-01-04,115
+6,Low,2,Micheal721 Lang846,55,M,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Boston,1,0,0,Acute viral pharyngitis (disorder),2019-08-09,263
+7,Low,2,Nikia872 Herzog843,55,F,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Quincy,1,0,0,Miscarriage in first trimester,2019-11-17,163
+9,Low,2,Andria131 Cronin387,54,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Everett,1,0,0,Acute bacterial sinusitis (disorder),2019-12-27,123
+7,Low,2,Dannette613 Bartoletti50,54,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Holyoke,2,0,0,Miscarriage in first trimester,2020-03-26,33
+2,Low,2,Dannielle300 Cormier289,54,F,Óscar156 Mateo562,GENERAL PRACTICE,NOBLE HOSPITAL,Westfield,3,0,0,Concussion injury of brain,2020-04-09,19
+7,Low,2,Janean397 Keeling57,53,F,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Marblehead,1,0,0,Viral sinusitis (disorder),2019-05-12,352
+2,Low,2,Ashton21 Schmidt332,52,F,Benton624 Becker968,GENERAL PRACTICE,ST ELIZABETH'S MEDICAL CENTER,Quincy,2,0,0,Viral sinusitis (disorder),2020-02-20,68
+4,Low,2,Della552 Feil794,52,F,Leonor133 Nájera755,GENERAL PRACTICE,ANNA JAQUES HOSPITAL,Salisbury,2,0,0,Cardiac Arrest,2020-01-12,107
+5,Low,2,Takisha161 Kunze215,52,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Natick,2,0,0,Acute viral pharyngitis (disorder),2019-09-05,236
+2,Low,2,Adell482 Mosciski958,51,F,Zana914 Considine820,GENERAL PRACTICE,LAHEY HOSPITAL & MEDICAL CENTER  BURLINGTON,Wilmington,1,0,0,Streptococcal sore throat (disorder),2019-10-30,181
+8,Low,2,Awilda854 Skiles927,51,F,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Weymouth,2,0,0,Drug overdose,2020-03-24,35
+7,Low,2,Gretchen912 Watsica258,51,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Methuen,1,0,0,Acute viral pharyngitis (disorder),2019-11-29,151
+9,Low,2,Guadalupe206 Buckridge80,51,M,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Quincy,2,0,0,Viral sinusitis (disorder),2020-04-24,4
+6,Low,2,Laura391 Bergstrom287,51,F,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Gloucester,1,0,0,Tubal pregnancy,2019-08-05,267
+6,Low,2,Bell723 Emmerich580,50,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,2,0,0,Acute viral pharyngitis (disorder),2019-12-06,144
+5,Low,2,Sherilyn598 O'Kon634,50,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Watertown,3,0,0,Acute viral pharyngitis (disorder),2019-05-08,356
+10,Low,2,Margert370 Keeling57,49,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Malden,1,0,0,Miscarriage in first trimester,2019-08-06,266
+4,Low,2,Cruz300 O'Keefe54,48,M,Edie35 Howell947,GENERAL PRACTICE,SOUTH SHORE HOSPITAL,Boston,2,0,0,Concussion with no loss of consciousness,2019-12-24,126
+11,Low,2,Jenise920 Boyer713,48,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Chelsea,1,0,0,Viral sinusitis (disorder),2020-01-28,91
+7,Low,2,Kiyoko456 Blanda868,48,F,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Rochester,1,0,0,Viral sinusitis (disorder),2019-08-21,251
+8,Low,2,Odis959 Sipes176,48,M,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Franklin,3,0,0,Acute viral pharyngitis (disorder),2019-12-23,127
+5,Low,2,Roman389 Heaney114,48,M,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Fall River,3,0,0,Viral sinusitis (disorder),2019-12-05,145
+2,Low,2,Tempie784 Bernhard322,48,F,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Mashpee,1,0,0,Acute viral pharyngitis (disorder),2020-01-16,103
+1,Low,2,Laverne101 Hills818,47,M,Kyle55 Tremblay80,GENERAL PRACTICE,FRANCISCAN CHILDREN'S HOSPITAL & REHAB CENTER,Revere,2,0,0,Viral sinusitis (disorder),2019-12-28,122
+1,Low,2,Yuko264 O'Conner199,47,F,Shaunte610 Bergstrom287,GENERAL PRACTICE,TUFTS MEDICAL CENTER,Boston,2,0,0,Viral sinusitis (disorder),2019-12-18,132
+9,Low,2,Demetria799 Halvorson124,46,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,1,0,0,Miscarriage in first trimester,2020-01-10,109
+8,Low,2,Eddie505 Stracke611,46,M,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Rochester,1,0,0,Viral sinusitis (disorder),2019-09-22,219
+5,Low,2,Quentin28 Luettgen772,46,M,Tiana543 Blick895,GENERAL PRACTICE,HARRINGTON MEMORIAL HOSPITAL-1,Dudley,3,0,0,Acute viral pharyngitis (disorder),2019-08-25,247
+3,Low,2,Agustin437 Vandervort697,45,M,Catalina187 Olivo261,GENERAL PRACTICE,SHRINERS' HOSPITAL FOR CHILDREN (THE),Wilbraham,2,0,0,Viral sinusitis (disorder),2020-01-17,102
+2,Low,2,Cameron381 Douglas31,45,M,Quincy153 Heathcote539,GENERAL PRACTICE,ATHOL MEMORIAL HOSPITAL,Orange,2,0,0,Concussion with loss of consciousness,2020-03-19,40
+5,Low,2,Randell912 Gorczany269,45,M,Jeramy610 Littel644,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,Wellesley,2,0,0,Viral sinusitis (disorder),2019-08-24,248
+7,Low,2,Keenan632 Hoeger474,43,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,1,0,0,Viral sinusitis (disorder),2019-08-09,263
+9,Low,2,Ali918 Maggio310,42,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Boston,2,0,0,Chronic intractable migraine without aura,2019-07-09,294
+5,Low,2,Cortez851 Brown30,42,M,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Wayland,3,0,0,Viral sinusitis (disorder),2020-04-11,17
+3,Low,2,Fritz267 Hartmann983,42,M,Wynell591 Wisozk929,GENERAL PRACTICE,ADCARE HOSPITAL OF WORCESTER INC,Grafton,1,0,0,Viral sinusitis (disorder),2020-04-06,22
+7,Low,2,Laverne101 Hane680,42,M,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Beverly,2,0,0,Viral sinusitis (disorder),2019-08-19,253
+2,Low,2,Mignon230 Quitzon246,42,F,Judith460 Johns824,GENERAL PRACTICE,HOLY FAMILY HOSPITAL,Haverhill,1,0,0,Viral sinusitis (disorder),2020-02-04,84
+4,Low,2,Ty725 Schmeler639,42,M,Catalina187 Olivo261,GENERAL PRACTICE,SHRINERS' HOSPITAL FOR CHILDREN (THE),Springfield,1,0,0,Viral sinusitis (disorder),2019-08-13,259
+4,Low,2,Margarita164 Crooks415,41,F,Brittani427 Satterfield305,GENERAL PRACTICE,MORTON HOSPITAL,Norton,2,0,0,Viral sinusitis (disorder),2019-12-12,138
+10,Low,2,Mariana775 Rutherford999,41,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,3,0,0,Streptococcal sore throat (disorder),2020-03-22,37
+8,Low,2,Fletcher87 Spinka232,40,M,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,West Springfield,2,0,0,Acute viral pharyngitis (disorder),2020-03-22,37
+6,Low,2,Iraida50 Oberbrunner298,40,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Springfield,1,0,0,Seasonal allergic rhinitis,2020-03-29,30
+8,Low,2,Lenny728 Turcotte120,40,M,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Beverly,2,0,0,Viral sinusitis (disorder),2019-08-08,264
+7,Low,2,Mariano761 Ziemann98,40,M,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,North Attleborough,1,0,0,Viral sinusitis (disorder),2020-04-03,25
+8,Low,2,Ethan766 Goyette777,39,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,3,0,0,Viral sinusitis (disorder),2019-07-20,283
+10,Low,2,Rowena386 Borer986,39,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Somerville,1,0,0,Perennial allergic rhinitis,2020-04-01,27
+6,Low,2,Starla601 Cummerata161,39,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Boston,1,0,0,Acute viral pharyngitis (disorder),2019-06-03,330
+5,Low,2,Avery919 Murphy561,38,M,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Newton,1,0,0,Seasonal allergic rhinitis,2019-10-22,189
+6,Low,2,Blake449 Connelly992,38,M,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Cambridge,2,0,0,Viral sinusitis (disorder),2019-06-04,329
+2,Low,2,Jamel269 Turner526,38,M,Cheree978 Cassin499,GENERAL PRACTICE,MASSACHUSETTS EYE AND EAR INFIRMARY -,Boston,1,0,0,Seizure disorder,2020-02-20,68
+3,Low,2,Teresita257 Rosenbaum794,38,F,Óscar156 Mateo562,GENERAL PRACTICE,NOBLE HOSPITAL,Westfield,3,0,0,Viral sinusitis (disorder),2020-02-20,68
+9,Low,2,Shelby741 Gerlach374,37,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Fall River,2,0,0,Acute viral pharyngitis (disorder),2020-04-16,12
+8,Low,2,Stephany248 Larson43,37,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Seekonk,1,0,0,Seasonal allergic rhinitis,2020-01-05,114
+4,Low,2,Frankie174 Heathcote539,36,F,Gertrudis163 Schaden604,GENERAL PRACTICE,SIGNATURE HEALTHCARE BROCKTON HOSPITAL,Abington,1,0,0,Viral sinusitis (disorder),2019-12-25,125
+2,Low,2,Adela471 Llamas954,35,F,Ashlea10 Funk324,GENERAL PRACTICE,ST VINCENT HOSPITAL,Worcester,1,0,0,Viral sinusitis (disorder),2020-04-09,19
+9,Low,2,Elvira561 Navarro863,35,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Attleboro,2,0,0,Miscarriage in first trimester,2019-12-17,133
+8,Low,2,Rana586 Davis923,35,F,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Beverly,1,0,0,Normal pregnancy,2020-02-13,75
+1,Low,2,Benton624 Boyle917,34,M,Tressa150 Kovacek682,GENERAL PRACTICE,NASHOBA VALLEY MEDICAL CENTER,Acton,1,0,0,Acute bacterial sinusitis (disorder),2019-12-03,147
+7,Low,2,Galen747 Keeling57,34,M,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Waltham,1,0,0,Viral sinusitis (disorder),2019-08-21,251
+7,Low,2,Lindsy319 Cummings51,34,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,3,0,0,Viral sinusitis (disorder),2019-10-31,180
+9,Low,2,Margurite588 Fahey393,34,F,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Peabody,3,0,0,Normal pregnancy,2020-04-28,0
+11,Low,2,Von197 Haley279,34,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Brookline,1,0,0,Impacted molars,2019-07-30,273
+12,Low,2,Haywood675 Jast432,33,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Wakefield,1,0,0,Viral sinusitis (disorder),2019-07-24,279
+9,Low,2,Leandra549 Rippin620,33,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Upton,1,0,0,Viral sinusitis (disorder),2020-03-24,35
+3,Low,2,Mercedes82 Shields502,33,F,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Dennis,1,0,0,Viral sinusitis (disorder),2020-02-24,64
+1,Low,2,Odell776 Abshire638,33,M,Garth972 Wyman904,GENERAL PRACTICE,Haverhill Community Based Outpatient Clinic (CBOC),Amesbury,2,0,0,Viral sinusitis (disorder),2019-07-26,277
+11,Low,2,Scott935 MacGyver246,33,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Carlisle,2,0,0,Tubal pregnancy,2020-03-03,56
+13,Low,2,Erwin847 Weimann465,32,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Lynnfield,2,0,0,Viral sinusitis (disorder),2019-12-16,134
+8,Low,2,Maddie576 McDermott739,32,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Walpole,1,0,0,Stroke,2020-04-02,26
+9,Low,2,Raymond398 Schroeder447,32,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,2,0,0,Acute bacterial sinusitis (disorder),2019-05-12,352
+9,Low,2,Vaughn909 Beatty507,32,M,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Essex,2,0,0,Acute viral pharyngitis (disorder),2019-05-12,352
+9,Low,2,Asa127 Ortiz186,31,M,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Stoughton,2,0,0,Acute viral pharyngitis (disorder),2019-11-14,166
+3,Low,2,Frances376 Kovacek682,31,M,Zana914 Considine820,GENERAL PRACTICE,LAHEY HOSPITAL & MEDICAL CENTER  BURLINGTON,Tewksbury,1,0,0,Viral sinusitis (disorder),2020-01-29,90
+8,Low,2,Leilani136 Romaguera67,31,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Middleton,1,0,0,Viral sinusitis (disorder),2020-01-08,111
+6,Low,2,Teodoro374 Purdy2,31,M,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,New Bedford,3,0,0,Viral sinusitis (disorder),2020-02-02,86
+14,Low,2,Inés791 Miramontes145,30,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Malden,1,0,0,Viral sinusitis (disorder),2019-05-10,354
+3,Low,2,Darla154 Schmitt836,29,F,Bryant814 Murazik203,GENERAL PRACTICE,NANTUCKET COTTAGE HOSPITAL,Brewster,3,0,0,Acute viral pharyngitis (disorder),2019-12-16,134
+10,Low,2,Orval846 Parisian75,29,M,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Franklin,1,0,0,Perennial allergic rhinitis with seasonal variation,2020-03-07,52
+11,Low,2,Abram53 Schinner682,28,M,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Mansfield,1,0,0,Drug overdose,2020-03-09,50
+10,Low,2,Dorothy355 Fay398,28,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Somerset,3,0,0,Acute viral pharyngitis (disorder),2020-02-15,73
+10,Low,2,Karyn217 Jast432,28,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Medfield,2,0,0,Viral sinusitis (disorder),2019-09-11,230
+3,Low,2,Maryalice613 Larson43,28,F,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Hudson,3,0,0,Chronic intractable migraine without aura,2019-12-15,135
+2,Low,2,Virginia437 Calvillo618,28,F,Terry864 Wiegand701,GENERAL PRACTICE,CARNEY HOSPITAL,Boston,1,0,0,Drug overdose,2020-02-08,80
+8,Low,2,Chan58 Dare640,27,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Arlington,2,0,0,Acute viral pharyngitis (disorder),2020-04-26,2
+3,Low,2,Hunter736 Grimes165,27,M,Judith460 Johns824,GENERAL PRACTICE,HOLY FAMILY HOSPITAL,Methuen,1,0,0,Viral sinusitis (disorder),2020-03-04,55
+3,Low,2,Jae222 Stanton715,27,M,Benton624 Becker968,GENERAL PRACTICE,ST ELIZABETH'S MEDICAL CENTER,Boston,2,0,0,Sinusitis (disorder),2020-01-26,93
+9,Low,2,Jayson808 Fadel536,27,M,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Chicopee,1,0,0,Viral sinusitis (disorder),2019-05-07,357
+12,Low,2,Jeanmarie510 Lebsack687,27,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Newton,1,0,0,Viral sinusitis (disorder),2020-04-06,22
+5,Low,2,Marc757 Kunde533,27,M,Catalina187 Olivo261,GENERAL PRACTICE,SHRINERS' HOSPITAL FOR CHILDREN (THE),Chicopee,2,0,0,Sinusitis (disorder),2020-02-16,72
+7,Low,2,Morgan564 Dietrich576,27,M,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Somerset,2,0,0,Viral sinusitis (disorder),2020-02-01,87
+5,Low,2,Nancie476 Kutch271,27,F,Leonor133 Nájera755,GENERAL PRACTICE,ANNA JAQUES HOSPITAL,Ipswich,2,0,0,Viral sinusitis (disorder),2020-03-21,38
+4,Low,2,Eartha927 Hamill307,26,F,Bryant814 Murazik203,GENERAL PRACTICE,NANTUCKET COTTAGE HOSPITAL,Brewster,1,0,0,Acute viral pharyngitis (disorder),2019-06-25,308
+12,Low,2,James276 Wyman904,26,M,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Attleboro,1,0,0,Seasonal allergic rhinitis,2019-12-02,148
+2,Low,2,Jeannie478 VonRueden376,26,F,Tressa150 Kovacek682,GENERAL PRACTICE,NASHOBA VALLEY MEDICAL CENTER,Ayer,2,0,0,Concussion with no loss of consciousness,2020-02-24,64
+4,Low,2,Van763 Reinger292,26,M,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Marlborough,2,0,0,Viral sinusitis (disorder),2020-04-14,14
+3,Low,2,Winona266 Reinger292,26,F,Darlena95 Pfannerstill264,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL CENTER INC,Douglas,1,0,0,Acute viral pharyngitis (disorder),2019-06-27,306
+9,Low,2,Alan320 Tillman293,25,M,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,New Bedford,2,0,0,Appendicitis,2020-04-25,3
+8,Low,2,Eugenio846 Rippin620,25,M,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Waltham,2,0,0,Viral sinusitis (disorder),2019-06-11,322
+15,Low,2,Marcelo725 Skiles927,25,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Everett,3,0,0,Viral sinusitis (disorder),2020-03-01,58
+2,Low,2,Mauro926 Kiehn525,25,M,Kyle55 Tremblay80,GENERAL PRACTICE,FRANCISCAN CHILDREN'S HOSPITAL & REHAB CENTER,Winthrop,2,0,0,Acute viral pharyngitis (disorder),2019-08-22,250
+4,Low,2,Millie392 Crooks415,25,F,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Dennis,1,0,0,Viral sinusitis (disorder),2019-09-06,235
+10,Low,2,Shawana711 Frami345,25,F,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Swampscott,2,0,0,Viral sinusitis (disorder),2019-10-06,205
+16,Low,2,Agustín529 Chavarría957,24,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Saugus,1,0,0,Appendicitis,2019-09-08,233
+4,Low,2,Anton902 O'Kon634,24,M,Óscar156 Mateo562,GENERAL PRACTICE,NOBLE HOSPITAL,Southwick,1,0,0,Viral sinusitis (disorder),2020-03-11,48
+4,Low,2,Marta91 Swift555,24,F,Lon587 Lind531,GENERAL PRACTICE,HEYWOOD HOSPITAL -,Gardner,3,0,0,Viral sinusitis (disorder),2020-01-13,106
+9,Low,2,Collette420 Graham902,23,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Lawrence,2,0,0,Acute viral pharyngitis (disorder),2020-02-20,68
+5,Low,2,Deidra675 Gleason633,23,F,Edie35 Howell947,GENERAL PRACTICE,SOUTH SHORE HOSPITAL,Weymouth,2,0,0,Viral sinusitis (disorder),2020-04-03,25
+1,Low,2,Ghislaine112 Kub800,23,F,Von197 Mraz590,GENERAL PRACTICE,BAYSTATE FRANKLIN MEDICAL CENTER,Greenfield,2,0,0,Viral sinusitis (disorder),2020-04-13,15
+10,Low,2,Sandra485 Hoppe518,23,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Sudbury,1,0,0,Perennial allergic rhinitis,2020-03-10,49
+11,Low,2,Timoteo39 Castañeda925,23,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Concord,3,0,0,Viral sinusitis (disorder),2019-05-09,355
+6,Low,2,Alton320 Bauch723,22,M,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Medford,1,0,0,Viral sinusitis (disorder),2019-07-22,281
+9,Low,2,Esteban536 Sierra982,22,M,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,3,0,0,Concussion with no loss of consciousness,2020-01-01,118
+5,Low,2,Jo405 McCullough561,22,F,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Marlborough,2,0,0,Acute viral pharyngitis (disorder),2020-01-15,104
+4,Low,2,Salvatore257 Roberts511,22,M,Devora529 Sipes176,GENERAL PRACTICE,BAYSTATE WING HOSPITAL AND MEDICAL CENTERS,Belchertown,1,0,0,Seizure disorder,2020-03-20,39
+3,Low,2,Santina680 Stracke611,22,F,Ashlea10 Funk324,GENERAL PRACTICE,ST VINCENT HOSPITAL,Spencer,1,0,0,Viral sinusitis (disorder),2020-04-02,26
+12,Low,2,Tabetha269 O'Hara248,22,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,3,0,0,Viral sinusitis (disorder),2019-11-28,152
+3,Low,2,Verónica383 Almanza534,22,F,Terry864 Wiegand701,GENERAL PRACTICE,CARNEY HOSPITAL,Boston,2,0,0,Concussion with no loss of consciousness,2020-02-28,60
+9,Low,2,Corie618 Howe413,21,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Brookline,3,0,0,Viral sinusitis (disorder),2020-03-11,48
+11,Low,2,Cythia210 Reichel38,21,F,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Peabody,2,0,0,Viral sinusitis (disorder),2020-03-10,49
+13,Low,2,Hermine424 Bernier607,21,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Plainville,1,0,0,Concussion with no loss of consciousness,2020-02-10,78
+14,Low,2,Jeni110 Roob72,21,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,North Attleborough,2,0,0,Viral sinusitis (disorder),2020-03-15,44
+6,Low,2,Lonnie913 Haley279,21,M,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Hopkinton,1,0,0,Concussion with no loss of consciousness,2019-09-15,226
+2,Low,2,Olene159 Greenholt190,21,F,Jamie386 Eichmann909,GENERAL PRACTICE,NEW ENGLAND BAPTIST HOSPITAL,Revere,1,0,0,Viral sinusitis (disorder),2019-06-26,307
+4,Low,2,Patrick786 Hettinger594,21,M,Jesús825 Quiroz936,GENERAL PRACTICE,BERKSHIRE MEDICAL CENTER INC - 1,Pittsfield,1,0,0,Acute viral pharyngitis (disorder),2019-08-11,261
+6,Low,2,Viola977 McGlynn426,21,F,Edie35 Howell947,GENERAL PRACTICE,SOUTH SHORE HOSPITAL,Boston,1,0,0,Viral sinusitis (disorder),2019-10-02,209
+5,Low,2,Altha90 Rolfson709,20,F,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Barnstable,1,0,0,Viral sinusitis (disorder),2020-04-21,7
+5,Low,2,Ardath226 Spinka232,20,F,Lon587 Lind531,GENERAL PRACTICE,HEYWOOD HOSPITAL -,Fitchburg,1,0,0,Perennial allergic rhinitis with seasonal variation,2020-02-27,61
+5,Low,2,Cheryll577 Mann644,20,F,Óscar156 Mateo562,GENERAL PRACTICE,NOBLE HOSPITAL,Southwick,2,0,0,Appendicitis,2020-04-23,5
+12,Low,2,Dale454 Satterfield305,20,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Chelmsford,1,0,0,Viral sinusitis (disorder),2020-04-14,14
+6,Low,2,Lavern240 Koss676,20,M,Tiana543 Blick895,GENERAL PRACTICE,HARRINGTON MEMORIAL HOSPITAL-1,East Brookfield,1,0,0,Acute viral pharyngitis (disorder),2020-01-27,92
+5,Low,2,Michael441 Ebert178,20,F,Leola603 Tremblay80,GENERAL PRACTICE,GOOD SAMARITAN MEDICAL CENTER,Bridgewater,2,0,0,Viral sinusitis (disorder),2019-05-22,342
+11,Low,2,Sun500 Pouros728,20,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Fall River,2,0,0,Sinusitis (disorder),2019-05-14,350
+10,Low,2,Cecila397 Feil794,19,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Ashland,1,0,0,Perennial allergic rhinitis with seasonal variation,2020-01-21,98
+11,Low,2,Melvin857 Kreiger457,19,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Hopedale,1,0,0,Viral sinusitis (disorder),2020-01-31,88
+5,Low,2,Thalia561 Paucek755,19,F,Hassan290 Rath779,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - PLYMOUTH,Scituate,1,0,0,Viral sinusitis (disorder),2019-12-25,125
+15,Low,2,Winford225 Hoeger474,19,M,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Swansea,1,0,0,Perennial allergic rhinitis,2020-01-05,114
+16,Low,2,Arletta663 Fay398,18,F,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Foxborough,2,0,0,Viral sinusitis (disorder),2019-12-19,131
+13,Low,2,Essie785 Kutch271,18,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Chelmsford,2,0,0,Viral sinusitis (disorder),2020-04-25,3
+14,Low,2,Gilbert263 Kub800,18,M,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,1,0,0,Acute viral pharyngitis (disorder),2020-02-27,61
+1,Low,2,Huey641 Kris249,18,M,Mohammed454 Parisian75,GENERAL PRACTICE,BAYSTATE MEDICAL CENTER,Longmeadow,1,0,0,Viral sinusitis (disorder),2019-07-26,277
+7,Low,2,Karyn217 Ullrich385,18,F,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Somerville,2,0,0,Viral sinusitis (disorder),2020-04-05,23
+2,Low,2,Ona426 Dooley940,18,F,Malinda718 Cassin499,GENERAL PRACTICE,CLINTON HOSPITAL ASSOCIATION,Northborough,2,0,0,Perennial allergic rhinitis,2020-01-14,105
+6,Low,2,Phil587 Mante251,18,M,Hassan290 Rath779,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - PLYMOUTH,Kingston,1,0,0,Acute bacterial sinusitis (disorder),2020-04-08,20
+15,Low,2,Susana117 Esparza426,18,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,1,0,0,Viral sinusitis (disorder),2019-08-03,269
+4,Low,2,Adam631 Mertz280,17,M,Ashlea10 Funk324,GENERAL PRACTICE,ST VINCENT HOSPITAL,Shrewsbury,2,0,0,Concussion with no loss of consciousness,2019-08-30,242
+10,Low,2,Amado512 Osinski784,17,M,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Newton,2,0,0,Viral sinusitis (disorder),2020-04-22,6
+10,Low,2,Angelina101 Mills423,17,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,1,0,0,Viral sinusitis (disorder),2019-09-16,225
+12,Low,2,Armand155 Schmeler639,17,M,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,New Bedford,1,0,0,Viral sinusitis (disorder),2020-01-14,105
+8,Low,2,Carin553 Conn188,17,F,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Winchester,2,0,0,Acute viral pharyngitis (disorder),2020-02-14,74
+6,Low,2,Enid644 Braun514,17,F,Leola603 Tremblay80,GENERAL PRACTICE,GOOD SAMARITAN MEDICAL CENTER,East Bridgewater,1,0,0,Viral sinusitis (disorder),2019-06-22,311
+5,Low,2,Garland107 Corkery305,17,M,Brittani427 Satterfield305,GENERAL PRACTICE,MORTON HOSPITAL,Taunton,3,0,0,Viral sinusitis (disorder),2020-04-19,9
+4,Low,2,Katheryn92 Douglas31,17,F,Zana914 Considine820,GENERAL PRACTICE,LAHEY HOSPITAL & MEDICAL CENTER  BURLINGTON,Tewksbury,1,0,0,Concussion with loss of consciousness,2020-04-03,25
+9,Low,2,Latrina689 Schneider199,17,F,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Arlington,1,0,0,Viral sinusitis (disorder),2020-01-29,90
+6,Low,2,Maxwell782 Reichel38,17,M,Jeramy610 Littel644,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,Needham,1,0,0,Appendicitis,2020-01-15,104
+17,Low,2,Albert312 Reynolds644,16,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Somerville,2,0,0,Viral sinusitis (disorder),2020-04-21,7
+18,Low,2,Buford910 Lynch190,16,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Malden,1,0,0,Acute viral pharyngitis (disorder),2020-04-22,6
+2,Low,2,Golden321 Pollich983,16,F,Mohammed454 Parisian75,GENERAL PRACTICE,BAYSTATE MEDICAL CENTER,Springfield,3,0,0,Atopic dermatitis,2020-03-02,57
+6,Low,2,Johnathon489 Brekke496,16,M,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Barnstable,1,0,0,Viral sinusitis (disorder),2019-10-28,183
+13,Low,2,Josephine273 Ward668,16,F,Colby655 Schowalter414,GENERAL PRACTICE,SAINT ANNE'S HOSPITAL,Fall River,2,0,0,Viral sinusitis (disorder),2020-03-21,38
+13,Low,2,Luisa710 Hammes673,16,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Holliston,2,0,0,Acute viral pharyngitis (disorder),2019-11-04,176
+10,Low,2,Maribeth658 D'Amore443,16,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Holyoke,1,0,0,Seasonal allergic rhinitis,2020-04-08,20
+3,Low,2,Reggie481 Prosacco716,16,M,Jamie386 Eichmann909,GENERAL PRACTICE,NEW ENGLAND BAPTIST HOSPITAL,Hingham,1,0,0,Viral sinusitis (disorder),2019-11-24,156
+4,Low,2,Sandee884 Anderson154,16,F,Darlena95 Pfannerstill264,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL CENTER INC,Worcester,1,0,0,Viral sinusitis (disorder),2019-09-22,219
+12,Low,2,Wes853 Kessler503,16,M,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Bellingham,2,0,0,Viral sinusitis (disorder),2019-10-16,195
+10,Low,2,Chelsey293 O'Reilly797,15,F,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,North Andover,1,0,0,Viral sinusitis (disorder),2019-09-15,226
+3,Low,2,Ethelyn789 Kozey370,15,F,Mohammed454 Parisian75,GENERAL PRACTICE,BAYSTATE MEDICAL CENTER,Agawam,1,0,0,Viral sinusitis (disorder),2019-11-04,176
+2,Low,2,Gidget756 Rempel203,15,F,Von197 Mraz590,GENERAL PRACTICE,BAYSTATE FRANKLIN MEDICAL CENTER,Gill,2,0,0,Acute bacterial sinusitis (disorder),2019-07-15,288
+6,Low,2,Jeffrey461 Greenfelder433,15,M,Catalina187 Olivo261,GENERAL PRACTICE,SHRINERS' HOSPITAL FOR CHILDREN (THE),Springfield,1,0,0,Viral sinusitis (disorder),2020-01-26,93
+5,Low,2,Jenise920 Abshire638,15,F,Devora529 Sipes176,GENERAL PRACTICE,BAYSTATE WING HOSPITAL AND MEDICAL CENTERS,Ware,1,0,0,Viral sinusitis (disorder),2020-02-08,80
+7,Low,2,Jerrie417 Gislason620,15,F,Catalina187 Olivo261,GENERAL PRACTICE,SHRINERS' HOSPITAL FOR CHILDREN (THE),Springfield,3,0,0,Viral sinusitis (disorder),2020-04-04,24
+3,Low,2,Meghann680 Smitham825,15,F,Malinda718 Cassin499,GENERAL PRACTICE,CLINTON HOSPITAL ASSOCIATION,Shrewsbury,1,0,0,Acute viral pharyngitis (disorder),2020-04-19,9
+13,Low,2,Polly738 Romaguera67,15,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Cambridge,3,0,0,Viral sinusitis (disorder),2020-03-19,40
+14,Low,2,Preston275 Bahringer146,15,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,2,0,0,Viral sinusitis (disorder),2019-09-06,235
+3,Low,2,Stewart672 Gusikowski974,15,M,Cheree978 Cassin499,GENERAL PRACTICE,MASSACHUSETTS EYE AND EAR INFIRMARY -,Quincy,1,0,0,Perennial allergic rhinitis with seasonal variation,2020-04-10,18
+4,Low,2,Demarcus108 Gerlach374,14,M,Tomas436 Sauer652,GENERAL PRACTICE,HEALTHALLIANCE HOSPITALS  INC,Lunenburg,3,0,0,Viral sinusitis (disorder),2019-08-07,265
+4,Low,2,Domingo513 Schaefer657,14,M,Mohammed454 Parisian75,GENERAL PRACTICE,BAYSTATE MEDICAL CENTER,Chicopee,1,0,0,Seizure disorder,2020-03-10,49
+5,Low,2,Pat3 Howell947,14,M,Darlena95 Pfannerstill264,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL CENTER INC,Spencer,1,0,0,Otitis media,2019-11-13,167
+11,Low,2,Shara355 Becker968,14,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Newton,1,0,0,Concussion with no loss of consciousness,2020-02-11,77
+10,Low,2,Victor265 Dickinson688,14,M,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Winchester,2,0,0,Seasonal allergic rhinitis,2020-04-23,5
+5,Low,2,Violet769 West559,14,F,Tomas436 Sauer652,GENERAL PRACTICE,HEALTHALLIANCE HOSPITALS  INC,Lunenburg,2,0,0,Sinusitis (disorder),2019-07-17,286
+5,Low,2,Alexandra16 Witting912,13,F,Ashlea10 Funk324,GENERAL PRACTICE,ST VINCENT HOSPITAL,Shrewsbury,1,0,0,Viral sinusitis (disorder),2020-02-17,71
+17,Low,2,Kelley882 West559,13,M,Gaynell126 Streich926,GENERAL PRACTICE,STURDY MEMORIAL HOSPITAL,Wrentham,1,0,0,Viral sinusitis (disorder),2019-09-08,233
+19,Low,2,Lesley194 Lynch190,13,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Saugus,1,0,0,Viral sinusitis (disorder),2020-01-08,111
+16,Low,2,Niki25 Doyle959,13,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Tyngsborough,1,0,0,Viral sinusitis (disorder),2020-04-17,11
+20,Low,2,Alec433 Wisozk929,12,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Woburn,3,0,0,Viral sinusitis (disorder),2019-07-27,276
+6,Low,2,Angelo118 Monahan736,12,M,Devora529 Sipes176,GENERAL PRACTICE,BAYSTATE WING HOSPITAL AND MEDICAL CENTERS,Palmer,1,0,0,Injury of tendon of the rotator cuff of shoulder,2019-12-04,146
+11,Low,2,Bernardo699 Vallejo39,12,M,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,2,0,0,Concussion with no loss of consciousness,2019-09-21,220
+6,Low,2,Brady998 Wisoky380,12,M,Darlena95 Pfannerstill264,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL CENTER INC,Worcester,2,0,0,Viral sinusitis (disorder),2019-12-30,120
+7,Low,2,Danny396 Windler79,12,M,Hassan290 Rath779,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - PLYMOUTH,Plymouth,2,0,0,Viral sinusitis (disorder),2019-10-25,186
+13,Low,2,Dreama246 Doyle959,12,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Millis,1,0,0,Fracture of vertebral column without spinal cord injury,2020-03-03,56
+21,Low,2,Hubert238 Kihn564,12,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Boston,3,0,0,Viral sinusitis (disorder),2019-05-13,351
+4,Low,2,Scott935 Boyer713,12,M,Wynell591 Wisozk929,GENERAL PRACTICE,ADCARE HOSPITAL OF WORCESTER INC,Oxford,1,0,0,Perennial allergic rhinitis,2020-02-07,81
+15,Low,2,Frances376 Schumm995,11,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Natick,1,0,0,Perennial allergic rhinitis,2019-07-31,272
+7,Low,2,Maragaret140 Weimann465,11,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Agawam,3,0,0,Viral sinusitis (disorder),2019-10-12,199
+10,Low,2,Marcela739 Tamayo777,11,F,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Fairhaven,1,0,0,Viral sinusitis (disorder),2019-05-01,363
+17,Low,2,Marjory382 Friesen796,11,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,1,0,0,Viral sinusitis (disorder),2019-07-08,295
+11,Low,2,Noble66 Pagac496,11,M,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Arlington,1,0,0,Seasonal allergic rhinitis,2019-09-15,226
+11,Low,2,Quintin944 Jenkins714,11,M,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,South Hadley,2,0,0,Perennial allergic rhinitis with seasonal variation,2020-02-08,80
+11,Low,2,Sal878 Ledner144,11,M,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Boxford,1,0,0,Viral sinusitis (disorder),2020-02-03,85
+5,Low,2,Sean831 Casper496,11,M,Zana914 Considine820,GENERAL PRACTICE,LAHEY HOSPITAL & MEDICAL CENTER  BURLINGTON,Waltham,2,0,0,Perennial allergic rhinitis,2020-02-28,60
+6,Low,2,Ta701 Jaskolski867,11,F,Lon587 Lind531,GENERAL PRACTICE,HEYWOOD HOSPITAL -,Westminster,1,0,0,Viral sinusitis (disorder),2020-02-17,71
+6,Low,2,Alyce744 Prohaska837,10,F,Óscar156 Mateo562,GENERAL PRACTICE,NOBLE HOSPITAL,Southwick,1,0,0,Viral sinusitis (disorder),2020-02-08,80
+8,Low,2,Ana972 Avilés474,10,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Chicopee,1,0,0,Viral sinusitis (disorder),2019-06-03,330
+8,Low,2,Ethelyn789 Nienow652,10,F,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Fall River,2,0,0,Viral sinusitis (disorder),2019-07-04,299
+5,Low,2,Eveline832 Wintheiser220,10,F,Mohammed454 Parisian75,GENERAL PRACTICE,BAYSTATE MEDICAL CENTER,Chicopee,3,0,0,Concussion with no loss of consciousness,2019-05-16,348
+5,Low,2,Brandon214 Hagenes547,9,M,Jesús825 Quiroz936,GENERAL PRACTICE,BERKSHIRE MEDICAL CENTER INC - 1,Pittsfield,1,0,0,Perennial allergic rhinitis with seasonal variation,2019-10-17,194
+4,Low,2,Codi873 Bins636,9,F,Malinda718 Cassin499,GENERAL PRACTICE,CLINTON HOSPITAL ASSOCIATION,Northborough,1,0,0,Viral sinusitis (disorder),2019-10-10,201
+7,Low,2,Jed345 Crooks415,9,M,Darlena95 Pfannerstill264,GENERAL PRACTICE,UMASS MEMORIAL MEDICAL CENTER INC,Worcester,1,0,0,Viral sinusitis (disorder),2019-12-19,131
+12,Low,2,Tula326 Kshlerin58,9,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,2,0,0,Acute bacterial sinusitis (disorder),2019-08-17,255
+9,Low,2,Will178 Haley279,9,M,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Lakeville,1,0,0,Viral sinusitis (disorder),2020-03-21,38
+12,Low,2,Erin498 Kautzer186,8,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Newton,1,0,0,Viral sinusitis (disorder),2020-02-22,66
+16,Low,2,Rick943 Hermiston71,8,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Natick,1,0,0,Viral sinusitis (disorder),2019-07-13,290
+22,Low,2,Alia555 Rohan584,7,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,North Reading,1,0,0,Viral sinusitis (disorder),2020-03-30,29
+14,Low,2,Brooks264 Hirthe744,7,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Boston,2,0,0,Perennial allergic rhinitis with seasonal variation,2020-03-17,42
+11,Low,2,Maegan141 Barrows492,7,F,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Norwood,2,0,0,Viral sinusitis (disorder),2019-07-03,300
+13,Low,2,Nanci249 Beahan375,7,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Malden,1,0,0,Seasonal allergic rhinitis,2020-02-09,79
+17,Low,2,Richie600 Goyette777,7,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,1,0,0,Viral sinusitis (disorder),2020-04-26,2
+15,Low,2,Albert312 Kshlerin58,6,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Chelsea,1,0,0,Perennial allergic rhinitis,2020-04-24,4
+13,Low,2,Bobby524 Robel940,6,F,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Brookline,1,0,0,Seasonal allergic rhinitis,2019-11-13,167
+12,Low,2,Jeanine128 Gaylord332,6,F,Vertie683 Towne435,GENERAL PRACTICE,WINCHESTER HOSPITAL,Woburn,1,0,0,Concussion with no loss of consciousness,2019-05-01,363
+10,Low,2,Lonny638 Reinger292,6,M,Myong12 Heidenreich818,GENERAL PRACTICE,SOUTHCOAST HOSPITAL GROUP  INC,Swansea,1,0,0,Viral sinusitis (disorder),2019-07-06,297
+23,Low,2,Lorrie905 Leannon79,6,F,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Peabody,2,0,0,Perennial allergic rhinitis with seasonal variation,2020-01-18,101
+1,Low,2,Diana207 Vigil207,5,F,Crista774 Keebler762,GENERAL PRACTICE,MASSACHUSETTS GENERAL HOSPITAL,Boston,2,0,0,Atopic dermatitis,2019-08-17,255
+7,Low,2,Quinton758 Conn188,5,M,Jeramy610 Littel644,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL - NEEDHAM,Needham,1,0,0,Concussion with no loss of consciousness,2020-03-12,47
+4,Low,2,Shanti441 Lesch175,5,F,Guadalupe206 Valenzuela371,GENERAL PRACTICE,COOLEY DICKINSON HOSPITAL INC THE,Amherst,1,0,0,Perennial allergic rhinitis,2020-03-30,29
+10,Low,2,Cletus494 Strosin214,4,M,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Gloucester,2,0,0,Viral sinusitis (disorder),2020-01-06,113
+7,Low,2,Demetrice140 Zieme486,4,F,Devora529 Sipes176,GENERAL PRACTICE,BAYSTATE WING HOSPITAL AND MEDICAL CENTERS,Belchertown,1,0,0,Perennial allergic rhinitis,2019-09-24,217
+6,Low,2,Jimmy858 Blanda868,4,M,Tomas436 Sauer652,GENERAL PRACTICE,HEALTHALLIANCE HOSPITALS  INC,Fitchburg,1,0,0,Viral sinusitis (disorder),2019-06-01,332
+24,Low,2,Carlton317 Leffler128,3,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Wakefield,1,0,0,Atopic dermatitis,2020-04-14,14
+7,Low,2,Dean966 Heathcote539,3,M,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Marlborough,1,0,0,Viral sinusitis (disorder),2020-01-12,107
+16,Low,2,Jenell974 Deckow585,3,F,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Boston,1,0,0,Viral sinusitis (disorder),2019-12-06,144
+6,Low,2,Mateo562 Palacios784,2,M,Brittani427 Satterfield305,GENERAL PRACTICE,MORTON HOSPITAL,Taunton,1,0,0,Viral sinusitis (disorder),2019-11-30,150
+12,Low,2,Otilia736 Schimmel440,2,F,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Chicopee,1,0,0,Concussion with no loss of consciousness,2020-02-12,76
+6,Low,2,Refugia211 Wintheiser220,1,F,Mohammed454 Parisian75,GENERAL PRACTICE,BAYSTATE MEDICAL CENTER,Springfield,1,0,0,Viral sinusitis (disorder),2019-11-30,150
+10,Low,2,Ross213 Torphy630,1,M,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Quincy,1,0,0,Viral sinusitis (disorder),2020-03-15,44
+17,Low,1,Asa127 Block661,26,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Boston,5,0,0,Acute viral pharyngitis (disorder),2018-11-26,519
+18,Low,1,Stewart672 Pouros728,26,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Somerville,4,0,0,Viral sinusitis (disorder),2018-11-30,515
+14,Low,0,Debbie941 Zieme486,47,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Milford,1,0,0,Viral sinusitis (disorder),2019-01-09,475
+6,Low,0,Micki733 Witting912,45,F,Zana914 Considine820,GENERAL PRACTICE,LAHEY HOSPITAL & MEDICAL CENTER  BURLINGTON,Tewksbury,2,0,0,Normal pregnancy,2019-03-03,422
+7,Low,0,Danyelle408 Hodkiewicz467,43,F,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Yarmouth,1,0,0,Viral sinusitis (disorder),2019-04-20,374
+25,Low,0,Nathanial472 Kuhic920,43,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Melrose,1,0,0,Viral sinusitis (disorder),2018-05-12,717
+7,Low,0,Andres25 Wilderman619,41,M,Edie35 Howell947,GENERAL PRACTICE,SOUTH SHORE HOSPITAL,Boston,3,0,0,Acute viral pharyngitis (disorder),2019-04-14,380
+11,Low,0,Edmundo94 Romaguera67,41,M,Mari763 Reynolds644,GENERAL PRACTICE,BEVERLY HOSPITAL CORPORATION,Gloucester,1,0,0,Impacted molars,2018-11-01,544
+11,Low,0,Domenic627 Emard19,39,M,Phillip440 McCullough561,GENERAL PRACTICE,CAPE COD HOSPITAL,Middleborough,1,0,0,Viral sinusitis (disorder),2018-07-10,658
+7,Low,0,Grady603 Hartmann983,39,M,Lon587 Lind531,GENERAL PRACTICE,HEYWOOD HOSPITAL -,Westminster,2,0,0,Viral sinusitis (disorder),2019-02-02,451
+5,Low,0,Major265 Beahan375,39,M,Gertrudis163 Schaden604,GENERAL PRACTICE,SIGNATURE HEALTHCARE BROCKTON HOSPITAL,Brockton,1,0,0,Acute viral pharyngitis (disorder),2018-07-08,660
+18,Low,0,Nickolas58 Lebsack687,39,M,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Natick,2,0,0,Acute viral pharyngitis (disorder),2017-08-21,981
+9,Low,0,Tawny381 Purdy2,37,F,Wayne846 Mertz280,GENERAL PRACTICE,MERCY MEDICAL CTR,Longmeadow,1,0,0,Acute viral pharyngitis (disorder),2019-04-25,369
+3,Low,0,Hubert238 Nader710,36,M,Quincy153 Heathcote539,GENERAL PRACTICE,ATHOL MEMORIAL HOSPITAL,Phillipston,1,0,0,Viral sinusitis (disorder),2017-09-05,966
+12,Low,0,Brooks264 Weimann465,35,M,Luke971 Rath779,GENERAL PRACTICE,NORWOOD HOSPITAL,Canton,1,0,0,Concussion with no loss of consciousness,2018-11-08,537
+14,Low,0,Dennise990 Shields502,35,F,Jeanmarie510 Beatty507,GENERAL PRACTICE,CAMBRIDGE HEALTH ALLIANCE,Boston,1,0,0,Normal pregnancy,2018-09-25,581
+7,Low,0,Wilber603 Sanford861,35,M,Brittani427 Satterfield305,GENERAL PRACTICE,MORTON HOSPITAL,Bridgewater,1,0,0,Viral sinusitis (disorder),2019-03-31,394
+19,Low,0,Mariam937 Bogisich202,33,F,Keri25 Schmidt332,GENERAL PRACTICE,METROWEST MEDICAL CENTER,Framingham,2,0,0,Viral sinusitis (disorder),2019-04-19,375
+18,Low,0,Young120 Quitzon246,31,M,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Carlisle,1,0,0,Viral sinusitis (disorder),2017-05-28,1066
+4,Low,0,Moses679 Greenholt190,30,M,Judith460 Johns824,GENERAL PRACTICE,HOLY FAMILY HOSPITAL,Haverhill,2,0,0,Viral sinusitis (disorder),2018-01-07,842
+12,Low,0,Jasper743 Muller251,29,M,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Lynn,1,0,0,Acute viral pharyngitis (disorder),2019-04-11,383
+14,Low,0,Raphael767 Walter473,29,M,Maile198 Frami345,GENERAL PRACTICE,NEWTON-WELLESLEY HOSPITAL,Needham,1,0,0,Viral sinusitis (disorder),2018-07-16,652
+13,Low,0,Bennie663 Rutherford999,27,M,Houston994 Osinski784,GENERAL PRACTICE,NORTH SHORE MEDICAL CENTER -,Revere,1,0,0,Viral sinusitis (disorder),2017-12-15,865
+11,Low,0,Brian582 Metz686,27,M,Sanford861 Gottlieb798,GENERAL PRACTICE,BETH ISRAEL DEACONESS HOSPITAL-MILTON INC,Milton,1,0,0,Acute viral pharyngitis (disorder),2018-01-09,840
+19,Low,0,Damon455 Zulauf375,27,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Boston,2,0,0,Viral sinusitis (disorder),2018-05-11,718
+20,Low,0,Elmer371 Schinner682,26,M,Suzette512 Monahan736,GENERAL PRACTICE,MOUNT AUBURN HOSPITAL,Boston,1,0,0,Viral sinusitis (disorder),2018-09-12,594
+1,Low,0,Kasey569 Herman763,26,M,Rivka589 Sanford861,GENERAL PRACTICE,BRIGHAM AND WOMEN'S FAULKNER HOSPITAL,Boston,1,0,0,Child attention deficit disorder,2018-07-23,645
+13,Low,0,Stanford577 Stanton715,26,M,Garth972 Wyman904,GENERAL PRACTICE,HOLYOKE MEDICAL CENTER,Holyoke,2,0,0,Viral sinusitis (disorder),2018-08-20,617
+8,Low,0,Clinton763 Monahan736,25,M,Jc393 Borer986,GENERAL PRACTICE,MARLBOROUGH HOSPITAL,Marlborough,1,0,0,Viral sinusitis (disorder),2017-06-14,1049
+3,Low,0,Matthew562 Stokes453,24,M,Kyle55 Tremblay80,GENERAL PRACTICE,FRANCISCAN CHILDREN'S HOSPITAL & REHAB CENTER,Boston,1,0,0,Acute viral pharyngitis (disorder),2017-10-31,910
+12,Low,0,Vicente970 Saldaña5,24,M,Patricia625 Salgado989,GENERAL PRACTICE,LAWRENCE GENERAL HOSPITAL,Haverhill,1,0,0,Viral sinusitis (disorder),2018-01-09,840
+2,Low,0,Gregorio366 Auer97,23,M,Kasi212 Hickle134,GENERAL PRACTICE,BRIGHAM AND WOMEN'S HOSPITAL,Boston,1,0,0,Acute viral pharyngitis (disorder),2018-12-22,493
+1,Low,0,Sherika987 Harris789,22,F,Lynwood354 Monahan736,GENERAL PRACTICE,BOSTON MEDICAL CENTER CORPORATION-,Boston,1,0,0,Viral sinusitis (disorder),2019-02-25,428
+2,Low,0,Edgardo196 McGlynn426,21,M,Lynwood354 Monahan736,GENERAL PRACTICE,BOSTON MEDICAL CENTER CORPORATION-,Boston,1,0,0,Cardiac Arrest,2017-07-06,1027
+26,Low,0,Fidel864 Davis923,21,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Malden,2,0,0,Viral sinusitis (disorder),2018-09-26,580
+27,Low,0,Hyman89 Labadie908,20,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Cambridge,2,0,0,Viral sinusitis (disorder),2018-11-28,517
+8,Low,0,Jc393 Waters156,20,M,Donita707 Ward668,GENERAL PRACTICE,FALMOUTH HOSPITAL,Yarmouth,2,0,0,Concussion with loss of consciousness,2018-11-01,544
+28,Low,0,Patricio639 Peña909,15,M,Vern731 Powlowski563,GENERAL PRACTICE,HALLMARK HEALTH SYSTEM,Chelsea,1,0,0,Viral sinusitis (disorder),2019-04-28,366
+19,Low,0,Paulita78 Goodwin327,13,F,Veda284 Pfeffer420,GENERAL PRACTICE,LOWELL GENERAL HOSPITAL,Lowell,2,0,0,Viral sinusitis (disorder),2019-04-25,369

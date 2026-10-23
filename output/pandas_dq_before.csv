@@ -1,0 +1,16 @@
+check_name,row_count
+duplicate_patient_id,0
+duplicate_encounter_id,0
+shared_ssn_rows,2
+condition_blank_stop,3811
+medication_blank_stop,1895
+procedure_date_outside_encounter,289
+procedure_unparsed_date,0
+encounter_stop_before_start,0
+encounter_after_death,9
+encounter_before_birth,0
+missing_zip,543
+encounter_blank_reason,39569
+orphan_condition_encounter,0
+orphan_encounter_patient,0
+medication_same_start_kept,630

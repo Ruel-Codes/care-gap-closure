@@ -1,0 +1,1272 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook locale='en_US' source-build='2026.3.0' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='smooth' />
+  <datasources>
+    <datasource caption='Conditions' inline='true' name='Conditions' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Conditions' name='textscan.Conditions'>
+            <connection class='textscan' directory='Data' filename='gaps_by_condition.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.Conditions' name='gaps_by_condition.csv' table='[gaps_by_condition#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Condition' ordinal='0' />
+              <column datatype='string' name='Class' ordinal='1' />
+              <column datatype='integer' name='Gaps' ordinal='2' />
+              <column datatype='integer' name='Patients' ordinal='3' />
+              <column datatype='real' name='GapRate' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.Conditions' name='gaps_by_condition.csv' table='[gaps_by_condition#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Condition' ordinal='0' />
+              <column datatype='string' name='Class' ordinal='1' />
+              <column datatype='integer' name='Gaps' ordinal='2' />
+              <column datatype='integer' name='Patients' ordinal='3' />
+              <column datatype='real' name='GapRate' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Condition</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Condition]</local-name>
+            <parent-name>[gaps_by_condition.csv]</parent-name>
+            <remote-alias>Condition</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Class]</local-name>
+            <parent-name>[gaps_by_condition.csv]</parent-name>
+            <remote-alias>Class</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gaps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gaps]</local-name>
+            <parent-name>[gaps_by_condition.csv]</parent-name>
+            <remote-alias>Gaps</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patients</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Patients]</local-name>
+            <parent-name>[gaps_by_condition.csv]</parent-name>
+            <remote-alias>Patients</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GapRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GapRate]</local-name>
+            <parent-name>[gaps_by_condition.csv]</parent-name>
+            <remote-alias>GapRate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[gaps_by_condition.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Condition]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Class]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Gaps]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Patients]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='real' name='[GapRate]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='Opportunity' inline='true' name='Opportunity' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Opportunity' name='textscan.Opportunity'>
+            <connection class='textscan' directory='Data' filename='org_opportunity.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.Opportunity' name='org_opportunity.csv' table='[org_opportunity#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Organization' ordinal='0' />
+              <column datatype='string' name='City' ordinal='1' />
+              <column datatype='integer' name='Conditions' ordinal='2' />
+              <column datatype='integer' name='Gaps' ordinal='3' />
+              <column datatype='real' name='GapRate' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.Opportunity' name='org_opportunity.csv' table='[org_opportunity#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Organization' ordinal='0' />
+              <column datatype='string' name='City' ordinal='1' />
+              <column datatype='integer' name='Conditions' ordinal='2' />
+              <column datatype='integer' name='Gaps' ordinal='3' />
+              <column datatype='real' name='GapRate' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Organization</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Organization]</local-name>
+            <parent-name>[org_opportunity.csv]</parent-name>
+            <remote-alias>Organization</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[org_opportunity.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conditions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conditions]</local-name>
+            <parent-name>[org_opportunity.csv]</parent-name>
+            <remote-alias>Conditions</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gaps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gaps]</local-name>
+            <parent-name>[org_opportunity.csv]</parent-name>
+            <remote-alias>Gaps</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GapRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GapRate]</local-name>
+            <parent-name>[org_opportunity.csv]</parent-name>
+            <remote-alias>GapRate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[org_opportunity.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Organization]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Conditions]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Gaps]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='real' name='[GapRate]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='BestFit' inline='true' name='BestFit' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='BestFit' name='textscan.BestFit'>
+            <connection class='textscan' directory='Data' filename='org_best.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.BestFit' name='org_best.csv' table='[org_best#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Organization' ordinal='0' />
+              <column datatype='string' name='City' ordinal='1' />
+              <column datatype='integer' name='Conditions' ordinal='2' />
+              <column datatype='integer' name='Gaps' ordinal='3' />
+              <column datatype='real' name='GapRate' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.BestFit' name='org_best.csv' table='[org_best#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Organization' ordinal='0' />
+              <column datatype='string' name='City' ordinal='1' />
+              <column datatype='integer' name='Conditions' ordinal='2' />
+              <column datatype='integer' name='Gaps' ordinal='3' />
+              <column datatype='real' name='GapRate' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Organization</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Organization]</local-name>
+            <parent-name>[org_best.csv]</parent-name>
+            <remote-alias>Organization</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[org_best.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conditions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conditions]</local-name>
+            <parent-name>[org_best.csv]</parent-name>
+            <remote-alias>Conditions</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gaps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gaps]</local-name>
+            <parent-name>[org_best.csv]</parent-name>
+            <remote-alias>Gaps</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GapRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GapRate]</local-name>
+            <parent-name>[org_best.csv]</parent-name>
+            <remote-alias>GapRate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[org_best.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Organization]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Conditions]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Gaps]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='real' name='[GapRate]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='Monthly' inline='true' name='Monthly' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Monthly' name='textscan.Monthly'>
+            <connection class='textscan' directory='Data' filename='monthly_gap_rate.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.Monthly' name='monthly_gap_rate.csv' table='[monthly_gap_rate#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Month' ordinal='0' />
+              <column datatype='integer' name='Conditions' ordinal='1' />
+              <column datatype='integer' name='Gaps' ordinal='2' />
+              <column datatype='real' name='GapRate' ordinal='3' />
+              <column datatype='real' name='PriorGapRate' ordinal='4' />
+              <column datatype='real' name='RateChange' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.Monthly' name='monthly_gap_rate.csv' table='[monthly_gap_rate#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Month' ordinal='0' />
+              <column datatype='integer' name='Conditions' ordinal='1' />
+              <column datatype='integer' name='Gaps' ordinal='2' />
+              <column datatype='real' name='GapRate' ordinal='3' />
+              <column datatype='real' name='PriorGapRate' ordinal='4' />
+              <column datatype='real' name='RateChange' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[monthly_gap_rate.csv]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Conditions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Conditions]</local-name>
+            <parent-name>[monthly_gap_rate.csv]</parent-name>
+            <remote-alias>Conditions</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gaps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gaps]</local-name>
+            <parent-name>[monthly_gap_rate.csv]</parent-name>
+            <remote-alias>Gaps</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GapRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GapRate]</local-name>
+            <parent-name>[monthly_gap_rate.csv]</parent-name>
+            <remote-alias>GapRate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriorGapRate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PriorGapRate]</local-name>
+            <parent-name>[monthly_gap_rate.csv]</parent-name>
+            <remote-alias>PriorGapRate</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RateChange</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RateChange]</local-name>
+            <parent-name>[monthly_gap_rate.csv]</parent-name>
+            <remote-alias>RateChange</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[monthly_gap_rate.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Month]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Conditions]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[Gaps]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='real' name='[GapRate]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='real' name='[PriorGapRate]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='real' name='[RateChange]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='Worklist' inline='true' name='Worklist' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Worklist' name='textscan.Worklist'>
+            <connection class='textscan' directory='Data' filename='worklist_top.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.Worklist' name='worklist_top.csv' table='[worklist_top#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='ProviderRank' ordinal='0' />
+              <column datatype='string' name='Priority' ordinal='1' />
+              <column datatype='integer' name='Score' ordinal='2' />
+              <column datatype='string' name='Patient' ordinal='3' />
+              <column datatype='integer' name='Age' ordinal='4' />
+              <column datatype='string' name='Sex' ordinal='5' />
+              <column datatype='string' name='Provider' ordinal='6' />
+              <column datatype='string' name='Speciality' ordinal='7' />
+              <column datatype='string' name='Organization' ordinal='8' />
+              <column datatype='string' name='City' ordinal='9' />
+              <column datatype='integer' name='Gaps' ordinal='10' />
+              <column datatype='integer' name='ChronicGaps' ordinal='11' />
+              <column datatype='integer' name='UrgentGaps' ordinal='12' />
+              <column datatype='string' name='LeadCondition' ordinal='13' />
+              <column datatype='string' name='LastVisit' ordinal='14' />
+              <column datatype='integer' name='DaysSinceVisit' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.Worklist' name='worklist_top.csv' table='[worklist_top#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='ProviderRank' ordinal='0' />
+              <column datatype='string' name='Priority' ordinal='1' />
+              <column datatype='integer' name='Score' ordinal='2' />
+              <column datatype='string' name='Patient' ordinal='3' />
+              <column datatype='integer' name='Age' ordinal='4' />
+              <column datatype='string' name='Sex' ordinal='5' />
+              <column datatype='string' name='Provider' ordinal='6' />
+              <column datatype='string' name='Speciality' ordinal='7' />
+              <column datatype='string' name='Organization' ordinal='8' />
+              <column datatype='string' name='City' ordinal='9' />
+              <column datatype='integer' name='Gaps' ordinal='10' />
+              <column datatype='integer' name='ChronicGaps' ordinal='11' />
+              <column datatype='integer' name='UrgentGaps' ordinal='12' />
+              <column datatype='string' name='LeadCondition' ordinal='13' />
+              <column datatype='string' name='LastVisit' ordinal='14' />
+              <column datatype='integer' name='DaysSinceVisit' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>ProviderRank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ProviderRank]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>ProviderRank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Priority</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Priority]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Priority</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Score]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Score</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Patient</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Patient]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Patient</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sex</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Sex]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Sex</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Provider</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Provider]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Provider</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Speciality</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Speciality]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Speciality</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Organization</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Organization]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Organization</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gaps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Gaps]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>Gaps</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChronicGaps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ChronicGaps]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>ChronicGaps</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UrgentGaps</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UrgentGaps]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>UrgentGaps</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LeadCondition</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LeadCondition]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>LeadCondition</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastVisit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastVisit]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>LastVisit</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DaysSinceVisit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DaysSinceVisit]</local-name>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias>DaysSinceVisit</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[worklist_top.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[ProviderRank]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Priority]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Score]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Patient]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Age]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Sex]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Provider]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Speciality]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Organization]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[Gaps]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[ChronicGaps]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' name='[UrgentGaps]' role='measure' type='quantitative' />
+      <column datatype='string' name='[LeadCondition]' role='dimension' type='nominal' />
+      <column datatype='string' name='[LastVisit]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='integer' name='[DaysSinceVisit]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+    <datasource caption='KPIs' inline='true' name='KPIs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='KPIs' name='textscan.KPIs'>
+            <connection class='textscan' directory='Data' filename='kpis.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.KPIs' name='kpis.csv' table='[kpis#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Metric' ordinal='0' />
+              <column datatype='real' name='Value' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.KPIs' name='kpis.csv' table='[kpis#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='Metric' ordinal='0' />
+              <column datatype='real' name='Value' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Metric</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Metric]</local-name>
+            <parent-name>[kpis.csv]</parent-name>
+            <remote-alias>Metric</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Value]</local-name>
+            <parent-name>[kpis.csv]</parent-name>
+            <remote-alias>Value</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[kpis.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Metric]' role='dimension' type='nominal' />
+      <column aggregation='Sum' datatype='real' name='[Value]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.5' measure-ordering='alphabetic' measure-percentage='0.4' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Headline'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Medium' fontsize='12'>Baseline, before any outreach</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='KPIs' name='KPIs' />
+          </datasources>
+          <datasource-dependencies datasource='KPIs'>
+            <column datatype='string' name='[Metric]' role='dimension' type='nominal' />
+            <column-instance column='[Metric]' derivation='None' name='[none:Metric:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' datatype='real' name='[Value]' role='measure' type='quantitative' />
+            <column-instance column='[Value]' derivation='Sum' name='[sum:Value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[KPIs].[sum:Value:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[KPIs].[none:Metric:nk]</rows>
+        <cols></cols>
+      </table>
+    </worksheet>
+    <worksheet name='Gaps by condition'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Medium' fontsize='12'>Where the gaps concentrate</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Conditions' name='Conditions' />
+          </datasources>
+          <datasource-dependencies datasource='Conditions'>
+            <column datatype='string' name='[Condition]' role='dimension' type='nominal' />
+            <column-instance column='[Condition]' derivation='None' name='[none:Condition:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Gaps]' role='measure' type='quantitative' />
+            <column-instance column='[Gaps]' derivation='Sum' name='[sum:Gaps:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[Class]' role='dimension' type='nominal' />
+            <column-instance column='[Class]' derivation='None' name='[none:Class:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <sort class='computed' column='[Conditions].[none:Condition:nk]' direction='DESC' using='[Conditions].[sum:Gaps:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' field='[Conditions].[sum:Gaps:qk]' scope='cols' value='Gaps' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <format attr='mark-color' value='#1F4E79' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[Conditions].[sum:Gaps:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[Conditions].[none:Condition:nk]</rows>
+        <cols>[Conditions].[sum:Gaps:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Where to expand'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Medium' fontsize='12'>Highest gap rate among organizations with at least 40 conditions</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Opportunity' name='Opportunity' />
+          </datasources>
+          <datasource-dependencies datasource='Opportunity'>
+            <column datatype='string' name='[Organization]' role='dimension' type='nominal' />
+            <column-instance column='[Organization]' derivation='None' name='[none:Organization:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' datatype='real' name='[GapRate]' role='measure' type='quantitative' />
+            <column-instance column='[GapRate]' derivation='Sum' name='[sum:GapRate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <sort class='computed' column='[Opportunity].[none:Organization:nk]' direction='DESC' using='[Opportunity].[sum:GapRate:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' field='[Opportunity].[sum:GapRate:qk]' scope='cols' value='GapRate' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <format attr='mark-color' value='#1F4E79' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[Opportunity].[sum:GapRate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[Opportunity].[none:Organization:nk]</rows>
+        <cols>[Opportunity].[sum:GapRate:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Where it is already lower'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Medium' fontsize='12'>Lowest gap rate among organizations with at least 40 conditions</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='BestFit' name='BestFit' />
+          </datasources>
+          <datasource-dependencies datasource='BestFit'>
+            <column datatype='string' name='[Organization]' role='dimension' type='nominal' />
+            <column-instance column='[Organization]' derivation='None' name='[none:Organization:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' datatype='real' name='[GapRate]' role='measure' type='quantitative' />
+            <column-instance column='[GapRate]' derivation='Sum' name='[sum:GapRate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <sort class='computed' column='[BestFit].[none:Organization:nk]' direction='DESC' using='[BestFit].[sum:GapRate:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' field='[BestFit].[sum:GapRate:qk]' scope='cols' value='GapRate' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='mark'>
+            <format attr='mark-color' value='#1F4E79' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[BestFit].[sum:GapRate:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[BestFit].[none:Organization:nk]</rows>
+        <cols>[BestFit].[sum:GapRate:qk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Monthly trend'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Medium' fontsize='12'>Monthly gap rate, with the prior month from LAG</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Monthly' name='Monthly' />
+          </datasources>
+          <datasource-dependencies datasource='Monthly'>
+            <column datatype='string' name='[Month]' role='dimension' type='nominal' />
+            <column-instance column='[Month]' derivation='None' name='[none:Month:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' datatype='real' name='[GapRate]' role='measure' type='quantitative' />
+            <column-instance column='[GapRate]' derivation='Sum' name='[sum:GapRate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' field='[Monthly].[sum:GapRate:qk]' scope='rows' value='Gap rate (%)' />
+            <format attr='title' field='[Monthly].[none:Month:nk]' scope='cols' value='Month' />
+          </style-rule>
+          <style-rule element='mark'>
+            <format attr='mark-color' value='#1F4E79' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+          </pane>
+        </panes>
+        <rows>[Monthly].[sum:GapRate:qk]</rows>
+        <cols>[Monthly].[none:Month:nk]</cols>
+      </table>
+    </worksheet>
+    <worksheet name='Call first'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Medium' fontsize='12'>Highest-priority patients on the outreach worklist</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Worklist' name='Worklist' />
+          </datasources>
+          <datasource-dependencies datasource='Worklist'>
+            <column datatype='string' name='[Patient]' role='dimension' type='nominal' />
+            <column-instance column='[Patient]' derivation='None' name='[none:Patient:nk]' pivot='key' type='nominal' />
+            <column aggregation='Sum' datatype='integer' name='[Score]' role='measure' type='quantitative' />
+            <column-instance column='[Score]' derivation='Sum' name='[sum:Score:qk]' pivot='key' type='quantitative' />
+            <column datatype='string' name='[Priority]' role='dimension' type='nominal' />
+            <column-instance column='[Priority]' derivation='None' name='[none:Priority:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[LeadCondition]' role='dimension' type='nominal' />
+            <column-instance column='[LeadCondition]' derivation='None' name='[none:LeadCondition:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <sort class='computed' column='[Worklist].[none:Patient:nk]' direction='DESC' using='[Worklist].[sum:Score:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' field='[Worklist].[sum:Score:qk]' scope='cols' value='Priority score' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[Worklist].[none:Priority:nk]' />
+              <text column='[Worklist].[sum:Score:qk]' />
+              <tooltip column='[Worklist].[none:LeadCondition:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[Worklist].[none:Patient:nk]</rows>
+        <cols>[Worklist].[sum:Score:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Care gap closure'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontname='Tableau Bold' fontsize='18'>Care-gap closure: who to call first</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <size maxheight='900' maxwidth='1400' minheight='900' minwidth='1400' />
+      <zones>
+        <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
+          <zone h='6000' id='3' type='title' w='100000' x='0' y='0' />
+          <zone h='7000' id='4' type='text' w='100000' x='0' y='6000'>
+            <formatted-text>
+              <run fontsize='11'>A care gap is a diagnosis with no medication and no procedure in the next 90 days. 2,469 gaps. 908 patients (79.0% of patients with an eligible condition). Baseline gap rate 30.5%. No outreach has run. This is the yardstick, not a result.</run>
+            </formatted-text>
+          </zone>
+          <zone h='16000' id='5' name='Headline' show-title='true' w='100000' x='0' y='13000' />
+          <zone h='28000' id='6' name='Gaps by condition' show-title='true' w='50000' x='0' y='29000' />
+          <zone h='28000' id='7' name='Call first' show-title='true' w='50000' x='50000' y='29000' />
+          <zone h='22000' id='8' name='Where to expand' show-title='true' w='50000' x='0' y='57000' />
+          <zone h='22000' id='9' name='Where it is already lower' show-title='true' w='50000' x='50000' y='57000' />
+          <zone h='21000' id='10' name='Monthly trend' show-title='true' w='100000' x='0' y='79000' />
+        </zone>
+      </zones>
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Headline'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Gaps by condition'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Where to expand'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Where it is already lower'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Monthly trend'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='worksheet' name='Call first'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+    </window>
+    <window class='dashboard' maximized='true' name='Care gap closure'>
+      <viewpoints>
+        <viewpoint name='Headline' /><viewpoint name='Gaps by condition' /><viewpoint name='Where to expand' /><viewpoint name='Where it is already lower' /><viewpoint name='Monthly trend' /><viewpoint name='Call first' />
+      </viewpoints>
+      <active id='-1' />
+    </window>
+  </windows>
+</workbook>

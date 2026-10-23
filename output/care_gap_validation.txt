@@ -1,0 +1,16 @@
+Care-gap data trust check
+Extract as of 2020-04-28
+
+PASS  gate  duplicate_patient_ids             issues=0
+PASS  gate  duplicate_encounter_ids           issues=0
+PASS  gate  conditions_missing_patient        issues=0
+PASS  gate  conditions_missing_encounter      issues=0
+PASS  gate  procedures_missing_patient        issues=0
+PASS  gate  medications_missing_patient       issues=0
+PASS  gate  missing_birthdate                 issues=0
+PASS  gate  missing_condition_start           issues=0
+PASS  gate  condition_stop_before_start       issues=0
+FAIL  flag  procedure_before_diagnosis        issues=14
+FAIL  flag  medication_before_diagnosis       issues=17
+
+checks=11  flagged_issues=31  gate_failures=0

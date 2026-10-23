@@ -1,0 +1,11 @@
+How we would know if outreach worked
+
+Metric: condition gap rate. Gap conditions divided by eligible conditions.
+Baseline from this extract: 30.5% (2,469 of 8,089).
+Patient view of the same baseline: 79.0% of patients with an eligible condition have at least one gap (908 of 1,149).
+
+After a real program, rebuild condition_gap each month with the same 90-day rule and read monthly_gap_trend. The rate_change_pts column is this month's gap rate minus last month's rate, from LAG. A falling rate, in the organizations that used the worklist, is the success signal. Compare those organizations with organizations that were not in the rollout.
+
+This file is the measurement setup only. The records are synthetic. Nobody was called. There is no before-and-after improvement to claim.
+
+Call-first list: 207 High priority patients, then 238 Medium, then 312 Low. The full list is output/outreach_worklist.csv, ranked inside 348 providers. Organization comparison uses 49 organizations that have at least 40 eligible conditions.

@@ -1,0 +1,13 @@
+ProviderRank,Priority,Score,Patient,Age,Sex,Provider,Speciality,Organization,City,Gaps,ChronicGaps,UrgentGaps,LeadCondition,LastVisit,DaysSinceVisit
+1,High,8,Sanford861 Fritsch593,96,M,Gaynell126 Streich926,GENERAL PRACTICE,VA Boston Healthcare System  Jamaica Plain Campus,Brookline,6,4,0,Diabetes,2020-04-24,4
+1,High,8,Antonia30 McKenzie376,80,M,Elinor7 Donnelly343,GENERAL PRACTICE,THE LEARNING CENTER FOR THE DEAF INC,Framingham,6,4,0,Neuropathy due to type 2 diabetes mellitus (disorder),2019-12-12,138
+1,High,8,Weldon459 Effertz744,76,M,Jesús825 Quiroz936,GENERAL PRACTICE,Quincy Outpatient Clinic,Quincy,9,4,0,Anemia (disorder),2020-04-17,11
+1,High,8,Sharleen176 Kulas532,110,F,Lai148 Friesen796,GENERAL PRACTICE,PCP4943,Pittsfield,8,3,0,Prediabetes,2020-03-07,52
+1,High,8,Dick869 Trantow673,95,M,Leonor133 Nájera755,GENERAL PRACTICE,Hyannis Outpatient Clinic,Dennis,4,3,0,Anemia (disorder),2020-01-01,118
+1,High,8,Temeka297 Gerlach374,87,F,Lucio648 Robel940,GENERAL PRACTICE,PCP2617,Waltham,9,3,0,Anemia (disorder),2020-04-26,2
+1,High,8,Elliott563 Towne435,79,M,Jesse626 Raynor401,GENERAL PRACTICE,PCP14063,Newburyport,5,3,0,Anemia (disorder),2020-04-15,13
+1,High,8,Maria750 Schoen8,78,F,Gertrudis163 Schaden604,GENERAL PRACTICE,Worcester Outpatient Clinic,Shrewsbury,8,3,0,Prediabetes,2019-12-12,138
+1,High,8,Rosalind66 Torp761,78,F,Riley817 Howell947,GENERAL PRACTICE,PCP14018,Lowell,7,3,0,Prediabetes,2019-11-24,156
+1,High,8,Bao544 Gutmann970,77,F,Edwina60 Christiansen251,GENERAL PRACTICE,PCP71080,Boston,5,3,0,Prediabetes,2019-07-21,282
+1,High,8,Richard937 Rice937,75,M,Sherly665 Brekke496,GENERAL PRACTICE,PCP29556,Greenfield,8,3,0,Anemia (disorder),2020-03-23,36
+1,High,7,Eilene124 Lockman863,67,F,Lonna614 Dietrich576,GENERAL PRACTICE,MILFORD REGIONAL MEDICAL CENTER,Bellingham,9,5,0,Chronic sinusitis (disorder),2019-07-28,275

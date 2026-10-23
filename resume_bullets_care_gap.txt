@@ -1,0 +1,9 @@
+Built a data-validation layer (Python + SQL) with 11 automated checks (duplicate IDs, orphan records, illogical dates) over 1,171 synthetic patients and 53,346 encounters, flagging 31 issues before reporting.
+
+Defined and measured a care-gap metric (condition with no treatment within 90 days) using joins, anti-joins and HAVING, identifying 2,469 gaps (79.0% of patients with an eligible condition have at least one).
+
+Created a prioritized outreach worklist using CASE risk bands and DENSE_RANK per provider, so a care team could contact the highest-priority 207 patients first.
+
+Compared gap rates across 49 organizations to identify where the workflow would likely perform best, and designed a baseline of 30.5% plus a monthly LAG trend for measuring outcomes after rollout.
+
+Automated the pipeline so one script reruns validation, queries and exports for a Tableau dashboard of the gap rate, the priority list, the organization comparison and the monthly trend.

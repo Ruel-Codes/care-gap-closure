@@ -1,0 +1,10 @@
+priority_band	patients
+High	207
+Medium	238
+Low	312
+gap_conditions	eligible_conditions	condition_gap_rate
+2469	8089	30.5
+gap_patients
+908
+eligible_patients
+1149

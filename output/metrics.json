@@ -1,0 +1,661 @@
+{
+  "quality_actions": [
+    {
+      "action": "blank_to_null",
+      "issues": 5706
+    },
+    {
+      "action": "flagged_not_imputed",
+      "issues": 543
+    },
+    {
+      "action": "aligned_procedure_date",
+      "issues": 289
+    },
+    {
+      "action": "flagged_retained",
+      "issues": 9
+    },
+    {
+      "action": "cleared_ssn",
+      "issues": 2
+    }
+  ],
+  "bands": [
+    {
+      "cost_band": "Low",
+      "encounters": 16020,
+      "total_cost": 2492065.78
+    },
+    {
+      "cost_band": "Mid",
+      "encounters": 28784,
+      "total_cost": 77407860.3
+    },
+    {
+      "cost_band": "High",
+      "encounters": 8542,
+      "total_cost": 199557801.69
+    }
+  ],
+  "classes": [
+    {
+      "encounter_class": "ambulatory",
+      "encounters": 18936,
+      "total_cost": 144484362.87,
+      "high_encounters": 5293.0
+    },
+    {
+      "encounter_class": "wellness",
+      "encounters": 19106,
+      "total_cost": 55749567.87,
+      "high_encounters": 689.0
+    },
+    {
+      "encounter_class": "outpatient",
+      "encounters": 9003,
+      "total_cost": 30316613.57,
+      "high_encounters": 842.0
+    },
+    {
+      "encounter_class": "inpatient",
+      "encounters": 1838,
+      "total_cost": 18152660.05,
+      "high_encounters": 751.0
+    },
+    {
+      "encounter_class": "emergency",
+      "encounters": 2090,
+      "total_cost": 15891866.15,
+      "high_encounters": 474.0
+    },
+    {
+      "encounter_class": "urgentcare",
+      "encounters": 2373,
+      "total_cost": 14862657.26,
+      "high_encounters": 493.0
+    }
+  ],
+  "top_patients": [
+    {
+      "cost_rank": 1,
+      "patient_name": "Earle679 Frami345",
+      "gender": "M",
+      "age_in_2020": 102,
+      "encounters": 826,
+      "patient_cost": 12827259.84
+    },
+    {
+      "cost_rank": 2,
+      "patient_name": "Sanford861 Fritsch593",
+      "gender": "M",
+      "age_in_2020": 96,
+      "encounters": 1538,
+      "patient_cost": 8525261.24
+    },
+    {
+      "cost_rank": 3,
+      "patient_name": "Samatha845 Mueller846",
+      "gender": "F",
+      "age_in_2020": 79,
+      "encounters": 367,
+      "patient_cost": 5266622.91
+    },
+    {
+      "cost_rank": 4,
+      "patient_name": "Weldon459 Effertz744",
+      "gender": "M",
+      "age_in_2020": 76,
+      "encounters": 285,
+      "patient_cost": 4092381.88
+    },
+    {
+      "cost_rank": 5,
+      "patient_name": "Chi716 Johnston597",
+      "gender": "M",
+      "age_in_2020": 81,
+      "encounters": 161,
+      "patient_cost": 2422356.24
+    },
+    {
+      "cost_rank": 6,
+      "patient_name": "Logan497 Brekke496",
+      "gender": "M",
+      "age_in_2020": 106,
+      "encounters": 2006,
+      "patient_cost": 1936761.99
+    },
+    {
+      "cost_rank": 7,
+      "patient_name": "Edgardo196 Gutkowski940",
+      "gender": "M",
+      "age_in_2020": 102,
+      "encounters": 37,
+      "patient_cost": 1847136.09
+    },
+    {
+      "cost_rank": 8,
+      "patient_name": "Ardath226 Spinka232",
+      "gender": "F",
+      "age_in_2020": 20,
+      "encounters": 166,
+      "patient_cost": 1787294.79
+    }
+  ],
+  "top_conditions": [
+    {
+      "encounter_class": "ambulatory",
+      "condition_description": "Normal pregnancy",
+      "condition_count": 516,
+      "attributed_cost": 23480467.29,
+      "cost_rank": 1
+    },
+    {
+      "encounter_class": "ambulatory",
+      "condition_description": "Neoplasm of prostate",
+      "condition_count": 30,
+      "attributed_cost": 2302072.79,
+      "cost_rank": 2
+    },
+    {
+      "encounter_class": "ambulatory",
+      "condition_description": "Carcinoma in situ of prostate (disorder)",
+      "condition_count": 27,
+      "attributed_cost": 2298857.47,
+      "cost_rank": 3
+    },
+    {
+      "encounter_class": "emergency",
+      "condition_description": "History of myocardial infarction (situation)",
+      "condition_count": 21,
+      "attributed_cost": 1520802.33,
+      "cost_rank": 1
+    },
+    {
+      "encounter_class": "emergency",
+      "condition_description": "Myocardial Infarction",
+      "condition_count": 21,
+      "attributed_cost": 1520802.33,
+      "cost_rank": 1
+    },
+    {
+      "encounter_class": "emergency",
+      "condition_description": "History of single seizure (situation)",
+      "condition_count": 40,
+      "attributed_cost": 1051180.85,
+      "cost_rank": 2
+    },
+    {
+      "encounter_class": "emergency",
+      "condition_description": "Seizure disorder",
+      "condition_count": 40,
+      "attributed_cost": 1051180.85,
+      "cost_rank": 2
+    },
+    {
+      "encounter_class": "emergency",
+      "condition_description": "Stroke",
+      "condition_count": 46,
+      "attributed_cost": 756703.62,
+      "cost_rank": 3
+    },
+    {
+      "encounter_class": "inpatient",
+      "condition_description": "Impacted molars",
+      "condition_count": 57,
+      "attributed_cost": 245567.53,
+      "cost_rank": 1
+    },
+    {
+      "encounter_class": "inpatient",
+      "condition_description": "History of appendectomy",
+      "condition_count": 50,
+      "attributed_cost": 155259.21,
+      "cost_rank": 2
+    },
+    {
+      "encounter_class": "inpatient",
+      "condition_description": "Malignant neoplasm of breast (disorder)",
+      "condition_count": 21,
+      "attributed_cost": 31128.11,
+      "cost_rank": 3
+    },
+    {
+      "encounter_class": "outpatient",
+      "condition_description": "Alzheimer's disease (disorder)",
+      "condition_count": 5,
+      "attributed_cost": 483121.54,
+      "cost_rank": 1
+    },
+    {
+      "encounter_class": "outpatient",
+      "condition_description": "Non-small cell lung cancer (disorder)",
+      "condition_count": 14,
+      "attributed_cost": 227039.82,
+      "cost_rank": 2
+    },
+    {
+      "encounter_class": "outpatient",
+      "condition_description": "Non-small cell carcinoma of lung  TNM stage 1 (disorder)",
+      "condition_count": 14,
+      "attributed_cost": 191688.43,
+      "cost_rank": 3
+    },
+    {
+      "encounter_class": "urgentcare",
+      "condition_description": "Atrial Fibrillation",
+      "condition_count": 3,
+      "attributed_cost": 48685.06,
+      "cost_rank": 1
+    },
+    {
+      "encounter_class": "urgentcare",
+      "condition_description": "Coronary Heart Disease",
+      "condition_count": 2,
+      "attributed_cost": 825.71,
+      "cost_rank": 2
+    },
+    {
+      "encounter_class": "wellness",
+      "condition_description": "Osteoporosis (disorder)",
+      "condition_count": 48,
+      "attributed_cost": 990058.53,
+      "cost_rank": 1
+    },
+    {
+      "encounter_class": "wellness",
+      "condition_description": "Atrial Fibrillation",
+      "condition_count": 27,
+      "attributed_cost": 648846.4,
+      "cost_rank": 2
+    },
+    {
+      "encounter_class": "wellness",
+      "condition_description": "Hypertension",
+      "condition_count": 290,
+      "attributed_cost": 556142.05,
+      "cost_rank": 3
+    }
+  ],
+  "care_gaps": [
+    {
+      "gap_events": 3654,
+      "gap_patients": 1014
+    }
+  ],
+  "care_gap_conditions": [
+    {
+      "condition_description": "Viral sinusitis (disorder)",
+      "gap_events": 919,
+      "patients": 604
+    },
+    {
+      "condition_description": "Acute viral pharyngitis (disorder)",
+      "gap_events": 388,
+      "patients": 316
+    },
+    {
+      "condition_description": "Body mass index 30+ - obesity (finding)",
+      "gap_events": 276,
+      "patients": 276
+    },
+    {
+      "condition_description": "Chronic sinusitis (disorder)",
+      "gap_events": 234,
+      "patients": 231
+    },
+    {
+      "condition_description": "Prediabetes",
+      "gap_events": 175,
+      "patients": 175
+    },
+    {
+      "condition_description": "Miscarriage in first trimester",
+      "gap_events": 173,
+      "patients": 173
+    },
+    {
+      "condition_description": "Anemia (disorder)",
+      "gap_events": 147,
+      "patients": 147
+    },
+    {
+      "condition_description": "Hypertension",
+      "gap_events": 118,
+      "patients": 118
+    }
+  ],
+  "repeat_visits": [
+    {
+      "patient_years": 8781,
+      "patients": 1155
+    }
+  ],
+  "monthly": [
+    {
+      "month_start": "2017-01-01",
+      "encounters": 253,
+      "mom_change": -25,
+      "mom_pct": -9.0
+    },
+    {
+      "month_start": "2017-02-01",
+      "encounters": 233,
+      "mom_change": -20,
+      "mom_pct": -7.9
+    },
+    {
+      "month_start": "2017-03-01",
+      "encounters": 275,
+      "mom_change": 42,
+      "mom_pct": 18.0
+    },
+    {
+      "month_start": "2017-04-01",
+      "encounters": 257,
+      "mom_change": -18,
+      "mom_pct": -6.5
+    },
+    {
+      "month_start": "2017-05-01",
+      "encounters": 249,
+      "mom_change": -8,
+      "mom_pct": -3.1
+    },
+    {
+      "month_start": "2017-06-01",
+      "encounters": 287,
+      "mom_change": 38,
+      "mom_pct": 15.3
+    },
+    {
+      "month_start": "2017-07-01",
+      "encounters": 280,
+      "mom_change": -7,
+      "mom_pct": -2.4
+    },
+    {
+      "month_start": "2017-08-01",
+      "encounters": 265,
+      "mom_change": -15,
+      "mom_pct": -5.4
+    },
+    {
+      "month_start": "2017-09-01",
+      "encounters": 268,
+      "mom_change": 3,
+      "mom_pct": 1.1
+    },
+    {
+      "month_start": "2017-10-01",
+      "encounters": 271,
+      "mom_change": 3,
+      "mom_pct": 1.1
+    },
+    {
+      "month_start": "2017-11-01",
+      "encounters": 252,
+      "mom_change": -19,
+      "mom_pct": -7.0
+    },
+    {
+      "month_start": "2017-12-01",
+      "encounters": 263,
+      "mom_change": 11,
+      "mom_pct": 4.4
+    },
+    {
+      "month_start": "2018-01-01",
+      "encounters": 236,
+      "mom_change": -27,
+      "mom_pct": -10.3
+    },
+    {
+      "month_start": "2018-02-01",
+      "encounters": 193,
+      "mom_change": -43,
+      "mom_pct": -18.2
+    },
+    {
+      "month_start": "2018-03-01",
+      "encounters": 240,
+      "mom_change": 47,
+      "mom_pct": 24.4
+    },
+    {
+      "month_start": "2018-04-01",
+      "encounters": 263,
+      "mom_change": 23,
+      "mom_pct": 9.6
+    },
+    {
+      "month_start": "2018-05-01",
+      "encounters": 302,
+      "mom_change": 39,
+      "mom_pct": 14.8
+    },
+    {
+      "month_start": "2018-06-01",
+      "encounters": 254,
+      "mom_change": -48,
+      "mom_pct": -15.9
+    },
+    {
+      "month_start": "2018-07-01",
+      "encounters": 292,
+      "mom_change": 38,
+      "mom_pct": 15.0
+    },
+    {
+      "month_start": "2018-08-01",
+      "encounters": 258,
+      "mom_change": -34,
+      "mom_pct": -11.6
+    },
+    {
+      "month_start": "2018-09-01",
+      "encounters": 243,
+      "mom_change": -15,
+      "mom_pct": -5.8
+    },
+    {
+      "month_start": "2018-10-01",
+      "encounters": 264,
+      "mom_change": 21,
+      "mom_pct": 8.6
+    },
+    {
+      "month_start": "2018-11-01",
+      "encounters": 263,
+      "mom_change": -1,
+      "mom_pct": -0.4
+    },
+    {
+      "month_start": "2018-12-01",
+      "encounters": 282,
+      "mom_change": 19,
+      "mom_pct": 7.2
+    },
+    {
+      "month_start": "2019-01-01",
+      "encounters": 250,
+      "mom_change": -32,
+      "mom_pct": -11.3
+    },
+    {
+      "month_start": "2019-02-01",
+      "encounters": 202,
+      "mom_change": -48,
+      "mom_pct": -19.2
+    },
+    {
+      "month_start": "2019-03-01",
+      "encounters": 252,
+      "mom_change": 50,
+      "mom_pct": 24.8
+    },
+    {
+      "month_start": "2019-04-01",
+      "encounters": 269,
+      "mom_change": 17,
+      "mom_pct": 6.7
+    },
+    {
+      "month_start": "2019-05-01",
+      "encounters": 245,
+      "mom_change": -24,
+      "mom_pct": -8.9
+    },
+    {
+      "month_start": "2019-06-01",
+      "encounters": 250,
+      "mom_change": 5,
+      "mom_pct": 2.0
+    },
+    {
+      "month_start": "2019-07-01",
+      "encounters": 238,
+      "mom_change": -12,
+      "mom_pct": -4.8
+    },
+    {
+      "month_start": "2019-08-01",
+      "encounters": 252,
+      "mom_change": 14,
+      "mom_pct": 5.9
+    },
+    {
+      "month_start": "2019-09-01",
+      "encounters": 213,
+      "mom_change": -39,
+      "mom_pct": -15.5
+    },
+    {
+      "month_start": "2019-10-01",
+      "encounters": 219,
+      "mom_change": 6,
+      "mom_pct": 2.8
+    },
+    {
+      "month_start": "2019-11-01",
+      "encounters": 247,
+      "mom_change": 28,
+      "mom_pct": 12.8
+    },
+    {
+      "month_start": "2019-12-01",
+      "encounters": 282,
+      "mom_change": 35,
+      "mom_pct": 14.2
+    },
+    {
+      "month_start": "2020-01-01",
+      "encounters": 253,
+      "mom_change": -29,
+      "mom_pct": -10.3
+    },
+    {
+      "month_start": "2020-02-01",
+      "encounters": 225,
+      "mom_change": -28,
+      "mom_pct": -11.1
+    },
+    {
+      "month_start": "2020-03-01",
+      "encounters": 259,
+      "mom_change": 34,
+      "mom_pct": 15.1
+    },
+    {
+      "month_start": "2020-04-01",
+      "encounters": 224,
+      "mom_change": -35,
+      "mom_pct": -13.5
+    }
+  ],
+  "payers": [
+    {
+      "payer_name": "Medicare",
+      "encounters": 9645,
+      "total_cost": 60837155.85
+    },
+    {
+      "payer_name": "Medicaid",
+      "encounters": 7966,
+      "total_cost": 49484898.43
+    },
+    {
+      "payer_name": "NO_INSURANCE",
+      "encounters": 10175,
+      "total_cost": 45690532.03
+    },
+    {
+      "payer_name": "Blue Cross Blue Shield",
+      "encounters": 6604,
+      "total_cost": 32763418.88
+    },
+    {
+      "payer_name": "UnitedHealthcare",
+      "encounters": 4654,
+      "total_cost": 23975502.46
+    },
+    {
+      "payer_name": "Humana",
+      "encounters": 4115,
+      "total_cost": 22878549.06
+    },
+    {
+      "payer_name": "Cigna Health",
+      "encounters": 3766,
+      "total_cost": 19234442.28
+    },
+    {
+      "payer_name": "Aetna",
+      "encounters": 3433,
+      "total_cost": 17462295.82
+    },
+    {
+      "payer_name": "Anthem",
+      "encounters": 2273,
+      "total_cost": 5495630.65
+    },
+    {
+      "payer_name": "Dual Eligible",
+      "encounters": 715,
+      "total_cost": 1635302.31
+    }
+  ],
+  "totals": [
+    {
+      "patients": 1171,
+      "encounters": 53346,
+      "conditions": 8376,
+      "procedures": 34981,
+      "medications": 42989,
+      "total_cost": 279457727.77,
+      "procedure_cost": 172482994.41,
+      "medication_cost": 100106420.41,
+      "base_cost": 6868312.95,
+      "first_encounter": "1912-07-21",
+      "last_encounter": "2020-04-28"
+    }
+  ],
+  "post_checks": [
+    {
+      "check_name": "shared_ssn",
+      "row_count": 0
+    },
+    {
+      "check_name": "procedure_outside_window",
+      "row_count": 0
+    },
+    {
+      "check_name": "stop_before_start",
+      "row_count": 0
+    },
+    {
+      "check_name": "resolved_issues",
+      "row_count": 5997
+    }
+  ]
+}
